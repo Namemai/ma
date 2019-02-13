@@ -109,16 +109,8 @@ lineSettings = ky.getSettings()
 Jmid = ky.getProfile().mid
 responsename10 = ky.getProfile().displayName
 
-sw = LineClient()
-sw.log("Auth Token : " + str(sw.authToken))
-channel11 = LineChannel(sw)
-sw.log("Channel Access Token : " + str(channel11.channelAccessToken))
-lineProfile = sw.getProfile()
-lineSettings = sw.getSettings()
-Zmid = sw.getProfile().mid
-responsename = sw.getProfile().displayName
 
-print("---LOGIN SUCCES---\nBY: SELFBOT-BY:MAX")
+print("---LOGIN SUCCES---\nBY: SELFBOT-BY:꧁❈§{MAI}§❈꧂")
 
 poll = LinePoll(cl)
 call = cl
@@ -137,10 +129,9 @@ Gmid = ko.getProfile().mid
 Hmid = kw.getProfile().mid
 Imid = ke.getProfile().mid
 Jmid = ky.getProfile().mid
-Zmid = sw.getProfile().mid
-KAC = [cl,ki,kk,kc,km,kb,kn,ko,kw,ke,ky,sw]
-ABC = [cl,ki,kk,kc,km,kb,kn,ko,kw,ke,ky,sw]
-Bots = [mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid,Jmid,Zmid]
+KAC = [cl,ki,kk,kc,km,kb,kn,ko,kw,ke,ky]
+ABC = [cl,ki,kk,kc,km,kb,kn,ko,kw,ke,ky]
+Bots = [mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid,Jmid]
 Dpk = admin + staff
 
 protectqr = []
