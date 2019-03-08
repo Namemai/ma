@@ -522,7 +522,6 @@ def help():
                   "║💀☈ " + key + "Listprotect\n" + \
                   "╚═[ ꧁❈§{MAI}§❈꧂ ]\n" + \
                   "▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬\n" + \
-
     return helpMessage1
 
 def helpbot():
@@ -597,7 +596,7 @@ def helpbot():
                   "║🤖☈ " + key + "Spam:「Mid korban」「Jumlah」\n" + \
                   "╚═[ ꧁❈§{MAI}§❈꧂ ]\n" + \
                   "▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬\n" + \
-    return helpMessage1
+    return helpMessage2
 
 def bot(op):
     global time
