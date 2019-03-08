@@ -523,7 +523,7 @@ def help():
                   "╚═[ ꧁❈§{MAI}§❈꧂ ]\n" + \
                   "▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬\n" + \
 
-    return helpMessage
+    return helpMessage1
 
 def helpbot():
     key = Setmain["keyCommand"]
