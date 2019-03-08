@@ -522,7 +522,7 @@ def help():
                   "║💀☈ " + key + "Listprotect\n" + \
                   "╚═[ ꧁❈§{MAI}§❈꧂ ]\n" + \
                   "▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬\n" + \
-    return helpMessage1
+    return helpMessagel
 
 def helpbot():
     key = Setmain["keyCommand"]
