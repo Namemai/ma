@@ -64,61 +64,8 @@ lineSettings = kb.getSettings()
 Emid = kb.getProfile().mid
 responsename5 = kb.getProfile().displayName
 
-kn = LineClient()
-kn.log("Auth Token : " + str(kn.authToken))
-channel6 = LineChannel(kn)
-kn.log("Channel Access Token : " + str(channel6.channelAccessToken))
-lineProfile = kn.getProfile()
-lineSettings = kn.getSettings()
-Fmid = kb.getProfile().mid
-responsename6 = kn.getProfile().displayName
 
-ko = LineClient()
-ko.log("Auth Token : " + str(ko.authToken))
-channel7 = LineChannel(ko)
-ko.log("Channel Access Token : " + str(channel7.channelAccessToken))
-lineProfile = ko.getProfile()
-lineSettings = ko.getSettings()
-Gmid = ko.getProfile().mid
-responsename7 = kb.getProfile().displayName
-
-kw = LineClient()
-kw.log("Auth Token : " + str(kw.authToken))
-channel8 = LineChannel(kw)
-kw.log("Channel Access Token : " + str(channel8.channelAccessToken))
-lineProfile = kw.getProfile()
-lineSettings = kw.getSettings()
-Hmid = kw.getProfile().mid
-responsename8 = kw.getProfile().displayName
-
-ke = LineClient()
-ke.log("Auth Token : " + str(ke.authToken))
-channel9 = LineChannel(ke)
-ke.log("Channel Access Token : " + str(channel9.channelAccessToken))
-lineProfile = ke.getProfile()
-lineSettings = ke.getSettings()
-Imid = ke.getProfile().mid
-responsename9 = ke.getProfile().displayName
-
-ky = LineClient()
-ky.log("Auth Token : " + str(ky.authToken))
-channel10 = LineChannel(ky)
-ky.log("Channel Access Token : " + str(channel10.channelAccessToken))
-lineProfile = ky.getProfile()
-lineSettings = ky.getSettings()
-Jmid = ky.getProfile().mid
-responsename10 = ky.getProfile().displayName
-
-sw = LineClient()
-sw.log("Auth Token : " + str(sw.authToken))
-channel11 = LineChannel(sw)
-sw.log("Channel Access Token : " + str(channel11.channelAccessToken))
-lineProfile = sw.getProfile()
-lineSettings = sw.getSettings()
-Zmid = sw.getProfile().mid
-responsename = sw.getProfile().displayName
-
-print("---LOGIN SUCCES---\nBY: SELFBOT-BY:MAX")
+print("---LOGIN SUCCES---\nBY: SELFBOT-BY:MAI")
 
 poll = LinePoll(cl)
 call = cl
@@ -132,15 +79,9 @@ Bmid = kk.getProfile().mid
 Cmid = kc.getProfile().mid
 Dmid = km.getProfile().mid
 Emid = kb.getProfile().mid
-Fmid = kn.getProfile().mid
-Gmid = ko.getProfile().mid
-Hmid = kw.getProfile().mid
-Imid = ke.getProfile().mid
-Jmid = ky.getProfile().mid
-Zmid = sw.getProfile().mid
-KAC = [cl,ki,kk,kc,km,kb,kn,ko,kw,ke,ky,sw]
-ABC = [cl,ki,kk,kc,km,kb,kn,ko,kw,ke,ky,sw]
-Bots = [mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid,Jmid,Zmid]
+KAC = [cl,ki,kk,kc,km,kb]
+ABC = [cl,ki,kk,kc,km,kb]
+Bots = [mid,Amid,Bmid,Cmid,Dmid,Emid]
 Dpk = admin + staff
 
 protectqr = []
@@ -157,11 +98,6 @@ responsename2 = kk.getProfile().displayName
 responsename3 = kc.getProfile().displayName
 responsename4 = km.getProfile().displayName
 responsename5 = kb.getProfile().displayName
-responsename6 = kn.getProfile().displayName
-responsename7 = ko.getProfile().displayName
-responsename8 = kw.getProfile().displayName
-responsename9 = ke.getProfile().displayName
-responsename10 = ky.getProfile().displayName
 
 settings = {
     "Picture":False,
