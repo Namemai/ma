@@ -114,10 +114,10 @@ print("---LOGIN SUCCES---\nBY: SELFBOT-BY:꧁❈§{MAI}§❈꧂")
 
 poll = LinePoll(cl)
 call = cl
-creator = ["u3ced60bd6a6e3b0bbc3f021b96a9fee7"]
-owner = ["u3ced60bd6a6e3b0bbc3f021b96a9fee7"]
-admin = ["u3ced60bd6a6e3b0bbc3f021b96a9fee7"]
-staff = ["u3ced60bd6a6e3b0bbc3f021b96a9fee7"]
+creator = ["u05a8619c623960b67de73061c74e212e"]
+owner = ["u05a8619c623960b67de73061c74e212e"]
+admin = ["u05a8619c623960b67de73061c74e212e"]
+staff = ["u05a8619c623960b67de73061c74e212e"]
 mid = cl.getProfile().mid
 Amid = ki.getProfile().mid
 Bmid = kk.getProfile().mid
@@ -390,13 +390,13 @@ def help():
     key = Setmain["keyCommand"]
     key = key.title()
     helpMessage = "▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬\n" + \
-                  "╔═[ ᴛᴇʀ ᴛᴇᴀᴍ sᴇʟғ ᴍᴀx.ᴘʏ ]\n"+\
-                  "║👿☈ " + key + "Help\n" + \
-                  "║👿☈ " + key + "Help bot\n" + \
+                  "╔═[ ᴛᴇᴀᴍ sᴇʟғ MAI ]\n"+\
+                  "║👿☈ " + key + "H\n" + \
+                  "║👿☈ " + key + "H\n" + \
                   "║👿☈ " + key + "Me\n" + \
                   "║👿☈ " + key + "Mid「@」\n" + \
                   "║👿☈ " + key + "Info「@」\n" + \
-                  "║👿☈ " + key + "Gk「@」\n" + \
+                  "║👿☈ " + key + "เตะ「@」\n" + \
                   "║👿☈ " + key + "Bk「@」\n" + \
                   "║👿☈ " + key + "Kickall\n" + \
                   "║👿☈ " + key + "Mybot\n" + \
@@ -4233,7 +4233,7 @@ def bot(op):
                                       except Exception as e:
                                           break
 
-                        elif text.lower() == 'max':
+                        elif text.lower() == 'บิน.':
                             if msg._from in admin:
                                 if msg.toType == 2:
                                     gs = cl.getGroup(msg.to)
