@@ -522,6 +522,7 @@ def help():
                   "║💀☈ " + key + "Listprotect\n" + \
                   "╚═[ ꧁❈§{MAI}§❈꧂ ]\n" + \
                   "▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬\n" + \
+
     return helpMessage
 
 def helpbot():
