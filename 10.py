@@ -522,7 +522,7 @@ def help():
                   "║💀☈ " + key + "Listprotect\n" + \
                   "╚═[ ꧁❈§{MAI}§❈꧂ ]\n" + \
                   "▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬\n" + \
-                  "\nKetik「 Refresh 」jika makanannya sudah habis...\n"
+                  "\n🔜🔝🔙\n"
     return helpMessage
 
 def helpbot():
@@ -544,18 +544,18 @@ def helpbot():
                   "║🛡☈ " + key + "Clearban\n" + \
                   "║🛡☈ " + key + "Refresh\n" + \
                   "╠══[ Help bot ]\n" + \
-                  "║👿☈ " + key + "Assist1\n" + \
-                  "║👿☈ " + key + "Assist2\n" + \
-                  "║👿☈ " + key + "Assist3\n" + \
-                  "║👿☈ " + key + "Assist4\n" + \
-                  "║👿☈ " + key + "Assist5\n" + \
-                  "║👿☈ " + key + "Assist6\n" + \
-                  "║👿☈ " + key + "Assist7\n" + \
-                  "║👿☈ " + key + "Assist8\n" + \
-                  "║👿☈ " + key + "Assist9\n" + \
-                  "║👿☈ " + key + "Assist10\n" + \
+                  "║👿☈ " + key + "A1\n" + \
+                  "║👿☈ " + key + "A2\n" + \
+                  "║👿☈ " + key + "A3\n" + \
+                  "║👿☈ " + key + "A4\n" + \
+                  "║👿☈ " + key + "A5\n" + \
+                  "║👿☈ " + key + "A6\n" + \
+                  "║👿☈ " + key + "A7\n" + \
+                  "║👿☈ " + key + "A8\n" + \
+                  "║👿☈ " + key + "A9\n" + \
+                  "║👿☈ " + key + "A10\n" + \
                   "╠══[ Help update ]\n" + \
-                  "║🕵☈ " + key + "Updatefoto\n" + \
+                  "║🕵☈ " + key + "อัพรูปบอท\n" + \
                   "║🕵☈ " + key + "Bot1up\n" + \
                   "║🕵☈ " + key + "Bot2up\n" + \
                   "║🕵☈ " + key + "Bot3up\n" + \
@@ -566,7 +566,7 @@ def helpbot():
                   "║🕵☈ " + key + "Bot8up\n" + \
                   "║🕵☈ " + key + "Bot9up\n" + \
                   "║🕵☈ " + key + "Bot10up\n" + \
-                  "║🕵☈ " + key + "Ghostup\n" + \
+                  "║🕵☈ " + key + "อัพชื่อบอท\n" + \
                   "║🕵☈ " + key + "Myname:「Name」\n" + \
                   "║🕵☈ " + key + "Bot1name:「Name」\n" + \
                   "║🕵☈ " + key + "Bot2name:「Name」\n" + \
@@ -597,7 +597,7 @@ def helpbot():
                   "║🤖☈ " + key + "Spam:「Mid korban」「Jumlah」\n" + \
                   "╚═[ 😈 SELFBOT-BY:MAX 😈 ]\n" + \
                   "▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬\n" + \
-                  "\nKetik「 Refresh 」jika makannya sudah kenyang...\n"
+                  "\n🔜🔝🔙\n"
     return helpMessage1
 
 def helpgroup():
@@ -607,10 +607,10 @@ def helpgroup():
                   "╔═[ Help Group ]\n"+\
                   "║👿☈ " + key + "Me\n" + \
                   "║👿☈ " + key + "Mid「@」\n" + \
-                  "║👿☈ " + key + "Info「@」\n" + \
+                  "║👿☈ " + key + "เชคห้อง「@」\n" + \
                   "║👿☈ " + key + "Gk「@」\n" + \
                   "║👿☈ " + key + "Bk「@」\n" + \
-                  "║👿☈ " + key + "M A X\n" + \
+                  "║👿☈ " + key + "บิน.\n" + \
                   "║👿☈ " + key + "Absen\n" + \
                   "║👿☈ " + key + "Status\n" + \
                   "║👿☈ " + key + "About\n" + \
@@ -622,25 +622,25 @@ def helpgroup():
                   "║👿☈ " + key + "Sprespon\n" + \
                   "║👿☈ " + key + "Invitebot\n" + \
                   "║👿☈ " + key + "Respon\n" + \
-                  "║👿☈ " + key + "join\n" + \
-                  "║👿☈ " + key + "bye\n" + \
-                  "║👿☈ " + key + "Ghost join\n" + \
+                  "║👿☈ " + key + "Mai on\n" + \
+                  "║👿☈ " + key + "Mai off\n" + \
+                  "║👿☈ " + key + "G\n" + \
                   "║👿☈ " + key + "Ghost bye\n" + \
                   "║👿☈ " + key + "Bye me\n" + \
                   "║👿☈ " + key + "Leave「Namagrup」\n" + \
                   "║👿☈ " + key + "Ginfo\n" + \
-                  "║👿☈ " + key + "Open\n" + \
-                  "║👿☈ " + key + "Close\n" + \
-                  "║👿☈ " + key + "Url\n" + \
+                  "║👿☈ " + key + "เปิดลิ้ง\n" + \
+                  "║👿☈ " + key + "ปิดลิ้ง\n" + \
+                  "║👿☈ " + key + "ลิ้ง\n" + \
                   "║👿☈ " + key + "Gruplist\n" + \
                   "║👿☈ " + key + "Remove chat\n" + \
                   "║👿☈ " + key + "Lurking「on/off」\n" + \
                   "║👿☈ " + key + "Lurkers\n" + \
                   "║👿☈ " + key + "Sider「on/off」\n" + \
                   "║👿☈ " + key + "Broadcast:「Text」\n" + \
-                  "╚[ 😈 SELFBOT-BY:MAX 😈 ]\n" + \
+                  "╚[ 😈 ꧁❈§{MAI}§❈꧂ 😈 ]\n" + \
                   "▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬\n" + \
-                  "\nKetik「 Refresh 」jika makannya sudah kenyang...\n"
+                  "\n🔜🔝🔙\n"
     return helpMessage2
 
 def bot(op):
