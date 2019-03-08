@@ -1584,14 +1584,6 @@ def bot(op):
                                 else: md+="😈 Ghost「 ✖ 」\n"                                   
                                 cl.sendMessage(msg.to, md+"\nTanggal : "+ datetime.strftime(timeNow,'%Y-%m-%d')+"\nJam [ "+ datetime.strftime(timeNow,'%H:%M:%S')+" ]")
 
-# ----------------- NOTIFED MEMBER OUT GROUP
-                elif text.lower() == 'อ่านเปิด':
-                    settings["autoRead"] = True
-                    cl.sendMessage(to, "ระบบอ่านและตรวจจับออโต้ ★ เปิด")
-                elif text.lower() == 'อ่านปิด':
-                    settings["autoRead"] = False
-                    cl.sendMessage(to, "ระบบอ่านและตรวจจับออโต้ ★ ปิด")
-# ----------------- NOTIFED MEMBER OUT GROUP
                         elif cmd == "creator" or text.lower() == 'ผส':
                             #if msg._from in admin:
                                 cl.sendText(msg.to,"「 CREATOR 」\n꧁❈§{MAI}§❈꧂") 
