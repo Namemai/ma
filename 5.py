@@ -344,7 +344,7 @@ def help():
                   "║👿☈ " + key + "Bk「@」\n" + \
                   "║👿☈ " + key + "Kickall\n" + \
                   "║👿☈ " + key + "Mybot\n" + \
-                  "║👿☈ " + key + "ตัส\n" + \
+                  "║👿☈ " + key + "สปีด\n" + \
                   "║👿☈ " + key + "เรา\n" + \
                   "║👿☈ " + key + "Restart\n" + \
                   "║👿☈ " + key + "Runtime\n" + \
@@ -353,8 +353,8 @@ def help():
                   "║👿☈ " + key + "Spb\n" + \
                   "║👿☈ " + key + "Respontime\n" + \
                   "║👿☈ " + key + "Sepinya\n" + \
-                  "║👿☈ " + key + "Mai on\n" + \
-                  "║👿☈ " + key + "Mai off\n" + \
+                  "║👿☈ " + key + "มา คิกเข้า\n" + \
+                  "║👿☈ " + key + "ออก คิกออก\n" + \
                   "║👿☈ " + key + "Ghost join\n" + \
                   "║👿☈ " + key + "Ghost bye\n" + \
                   "║👿☈ " + key + "Bye me\n" + \
@@ -2552,7 +2552,7 @@ def bot(op):
                                 except:
                                     pass
     
-                        elif cmd == "mai on":
+                        elif cmd == "มา":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 G = cl.getGroup(msg.to)
@@ -2570,7 +2570,7 @@ def bot(op):
                                 G.preventedJoinByTicket = True
                                 cl.updateGroup(G)
 
-                        elif cmd == "mai off":
+                        elif cmd == "ออก":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 G = cl.getGroup(msg.to)
@@ -2674,7 +2674,7 @@ def bot(op):
                                 G = cl.getGroup(msg.to)
                                 sw.leaveGroup(msg.to)
 
-                        elif cmd == "สปีดบอท":
+                        elif cmd == "สปีด":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 get_profile_time_start = time.time()
