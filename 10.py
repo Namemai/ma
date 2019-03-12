@@ -204,7 +204,7 @@ wait = {
     "Talkdblacklist":False,
     "talkban":True,
     "contact":False,
-    'autoJoin':False,
+    'autoJoin':True,
     'autoBlock':True,
     'autoAdd':False,
     'autoRead':False,
@@ -2683,7 +2683,7 @@ def bot(op):
                                 sw.sendMessage(msg.to,"Nama diganti jadi " + string + "")
                         
 #===========BOT UPDATE============#
-                        elif cmd == "m" or text.lower() == '😆':
+                        elif cmd == "m" or text.lower() == 'mm':
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                group = cl.getGroup(msg.to)
@@ -3202,7 +3202,7 @@ def bot(op):
                                 ke.sendMessage(msg.to,responsename9)
                                 ky.sendMessage(msg.to,responsename10)
                                 
-                        elif cmd == "invitebot":
+                        elif cmd == "ดึงbot":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 try:
@@ -3446,7 +3446,7 @@ def bot(op):
                                 G = cl.getGroup(msg.to)
                                 sw.leaveGroup(msg.to)
 
-                        elif cmd == "sprespon":
+                        elif cmd == "สปีด":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 get_profile_time_start = time.time()
@@ -3950,7 +3950,6 @@ def bot(op):
                                       kw.sendMessage(midd, None, contentMetadata={'PRDID': 'a0768339-c2d3-4189-9653-2909e9bb6f58', 'PRDTYPE': 'THEME', 'MSGTPL': '6'}, contentType=9)
                                       ke.sendMessage(midd, None, contentMetadata={'PRDID': 'a0768339-c2d3-4189-9653-2909e9bb6f58', 'PRDTYPE': 'THEME', 'MSGTPL': '6'}, contentType=9)
                                       ky.sendMessage(midd, None, contentMetadata={'PRDID': 'a0768339-c2d3-4189-9653-2909e9bb6f58', 'PRDTYPE': 'THEME', 'MSGTPL': '6'}, contentType=9)
-                                      sw.sendMessage(midd, None, contentMetadata={'PRDID': 'a0768339-c2d3-4189-9653-2909e9bb6f58', 'PRDTYPE': 'THEME', 'MSGTPL': '6'}, contentType=9)
 
                         elif 'Spam: ' in msg.text:
                           if wait["selfbot"] == True:
@@ -4284,7 +4283,6 @@ def bot(op):
                                 cl.updateGroup(gs)
                                 invsend = 0
                                 Ticket = cl.reissueGroupTicket(msg.to)
-                                cl.acceptGroupInvitationByTicket(msg.to,Ticket)
                                 ki.acceptGroupInvitationByTicket(msg.to,Ticket)
                                 kk.acceptGroupInvitationByTicket(msg.to,Ticket)
                                 kc.acceptGroupInvitationByTicket(msg.to,Ticket)
