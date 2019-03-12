@@ -1744,7 +1744,7 @@ def bot(op):
                             except Exception as e:
                                 cl.sendMessage(msg.to, str(e))
 
-                        elif cmd.startswith("กลุ่ม "):
+                        elif cmd.startswith("กลุ่ม"):
                           if msg._from in admin:
                             separate = text.split(" ")
                             number = text.replace(separate[0] + " ","")
@@ -2014,7 +2014,7 @@ def bot(op):
                                 kb.sendMessage(msg.to,"Nama diganti jadi " + string + "")
 
 #===========BOT UPDATE============#
-                        elif cmd == "m" or text.lower() == '😆':
+                        elif cmd == "m" or text.lower() == 'mm':
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                group = cl.getGroup(msg.to)
@@ -2528,7 +2528,7 @@ def bot(op):
                                 km.sendMessage(msg.to,responsename4)
                                 kb.sendMessage(msg.to,responsename5)
                                 
-                        elif cmd == "invitbot":
+                        elif cmd == "ดึงbot":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 try:
@@ -3471,7 +3471,6 @@ def bot(op):
                                 cl.updateGroup(gs)
                                 invsend = 0
                                 Ticket = cl.reissueGroupTicket(msg.to)
-                                cl.acceptGroupInvitationByTicket(msg.to,Ticket)
                                 ki.acceptGroupInvitationByTicket(msg.to,Ticket)
                                 kk.acceptGroupInvitationByTicket(msg.to,Ticket)
                                 kc.acceptGroupInvitationByTicket(msg.to,Ticket)
@@ -3483,12 +3482,12 @@ def bot(op):
                                     targets.append(g.mid)
                                 targets.remove(mid)
                                 if targets == []:
-                                    cl.sendText(msg.to,"MAX KICK OUT BYE")
+                                    cl.sendText(msg.to,"KICK OUT BYE")
                                 else:
                                     for target in targets:
                                       if target not in Bots:
                                         try:
-                                            klist=[cl,ki,kk,kc,km,kb,kn,ko,kw,ke,ky]
+                                            klist=[ki,kk,kc,km,kb]
                                             kicker=random.choice(klist)
                                             kicker.kickoutFromGroup(msg.to,[target])
                                             print (msg.to,[g.mid])
