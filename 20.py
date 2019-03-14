@@ -213,10 +213,10 @@ print("---LOGIN SUCCES---\nBY: SELFBOT-BY:꧁❈§{MAI}§❈꧂")
 
 poll = LinePoll(cl)
 call = cl
-creator = ["u05a8619c623960b67de73061c74e212e"]
-owner = ["u05a8619c623960b67de73061c74e212e"]
-admin = ["u05a8619c623960b67de73061c74e212e"]
-staff = ["u05a8619c623960b67de73061c74e212e"]
+creator = ["uc66e45201d1612eb4ce7b3a86bac4685"]
+owner = ["uc66e45201d1612eb4ce7b3a86bac4685"]
+admin = ["uc66e45201d1612eb4ce7b3a86bac4685"]
+staff = ["uc66e45201d1612eb4ce7b3a86bac4685"]
 mid = cl.getProfile().mid
 Amid = ki.getProfile().mid
 Bmid = kk.getProfile().mid
