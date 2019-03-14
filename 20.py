@@ -1343,26 +1343,6 @@ def bot(op):
                     else:
                        pass         
                 
-        if op.type == 19:
-            try:
-                if op.param1 in protectantijs:
-                  if op.param3 in mid:
-                    if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
-                        k19.acceptGroupInvitation(op.param1)
-                        G = k19.getGroup(op.param1)
-                        G.prevenJoinByTicket = False
-                        k19.updateGroup(G)
-                        Ticket = k19.reissueGroupTicket(op.param1)
-                        random.choice(KAC).acceptGroupInvitationByTicket(op.param1,Ticket)
-                        k19.kickoutFromGroup(op.param1,[op.param2])
-                        G.prevenJoinByTicket = True
-                        k19.updateGroup(G)
-                        wait["blacklist"][op.param2] = True
-                        k19.leaveGroup(op.param1)
-                        cl.inviteIntoGroup(op.param1,[Zmid])
-                        cl.inviteIntoGroup(op.param1,[admin])
-                    else:
-                       pass
                         
                 if op.param3 in Zmid:
                     if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
