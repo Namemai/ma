@@ -199,6 +199,15 @@ lineSettings = k20.getSettings()
 Jmid10 = k20.getProfile().mid
 responsename102 = k20.getProfile().displayName
 
+sw = LineClient()
+sw.log("Auth Token : " + str(sw.authToken))
+channel11j = LineChannel(sw)
+sw.log("Channel Access Token : " + str(channel11j.channelAccessToken))
+lineProfile = sw.getProfile()
+lineSettings = sw.getSettings()
+Zmid = sw.getProfile().mid
+responsename = sw.getProfile().displayName
+
 
 print("---LOGIN SUCCES---\nBY: SELFBOT-BY:꧁❈§{MAI}§❈꧂")
 
@@ -229,9 +238,10 @@ Gmid7 = k17.getProfile().mid
 Hmid8 = k18.getProfile().mid
 Imid9 = k19.getProfile().mid
 Jmid10 = k20.getProfile().mid
-KAC = [cl,ki,kk,kc,km,kb,kn,ko,kw,ke,ky,k11,k12,k13,k14,k15,k16,k17,k18,k19,k20]
-ABC = [cl,ki,kk,kc,km,kb,kn,ko,kw,ke,ky,k11,k12,k13,k14,k15,k16,k17,k18,k19,k20]
-Bots = [mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid,Jmid,Amid1,Bmid2,Cmid3,Dmid4,Emid5,Fmid6,Gmid7,Hmid8,Imid9,Jmid10]
+Zmid = sw.getProfile().mid
+KAC = [cl,ki,kk,kc,km,kb,kn,ko,kw,ke,ky,k11,k12,k13,k14,k15,k16,k17,k18,k19,k20,sw]
+ABC = [cl,ki,kk,kc,km,kb,kn,ko,kw,ke,ky,k11,k12,k13,k14,k15,k16,k17,k18,k19,k20,sw]
+Bots = [mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid,Jmid,Amid1,Bmid2,Cmid3,Dmid4,Emid5,Fmid6,Gmid7,Hmid8,Imid9,Jmid10,Zmid]
 Dpk = admin + staff
 
 protectqr = []
@@ -506,7 +516,7 @@ def help():
                   "║👿☈ " + key + "Help group\n" + \
                   "║👿☈ " + key + "Mid「@」\n" + \
                   "║👿☈ " + key + "Info「@」\n" + \
-                  "║👿☈ " + key + "Gk「@」\n" + \
+                  "║👿☈ " + key + "js「@」\n" + \
                   "║👿☈ " + key + "Bk「@」\n" + \
                   "║👿☈ " + key + "Kickall\n" + \
                   "║👿☈ " + key + "Mybot\n" + \
@@ -521,8 +531,8 @@ def help():
                   "║👿☈ " + key + "Sepinya\n" + \
                   "║👿☈ " + key + "มา   คิกเข้า\n" + \
                   "║👿☈ " + key + "ออก   คิกออก\n" + \
-                  "║👿☈ " + key + "Ghost join\n" + \
-                  "║👿☈ " + key + "Ghost bye\n" + \
+                  "║👿☈ " + key + "jsออก\n" + \
+                  "║👿☈ " + key + "jsมา\n" + \
                   "║👿☈ " + key + "Bye me\n" + \
                   "║👿☈ " + key + "Leave「Namagrup」\n" + \
                   "║👿☈ " + key + "เชคห้อง\n" + \
@@ -775,6 +785,18 @@ def bot(op):
                             k20.kickoutFromGroup(op.param1,[op.param2])
                             k20.leaveGroup(op.param1)
                             cl.updateGroup(X)
+                except:
+                    try:
+                        if cl.getGroup(op.param1).preventedJoinByTicket == False:
+                            if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
+                                cl.reissueGroupTicket(op.param1)
+                                X = cl.getGroup(op.param1)
+                                X.preventedJoinByTicket = True
+                                Ticket = ki.reissueGroupTicket(op.param1)
+                                sw.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                sw.kickoutFromGroup(op.param1,[op.param2])
+                                sw.leaveGroup(op.param1)
+                                cl.updateGroup(X)                
                 except:
                     try:
                         if ki.getGroup(op.param1).preventedJoinByTicket == False:
@@ -1303,14 +1325,34 @@ def bot(op):
                         cl.updateGroup(G)
                         invsend = 0
                         Ticket = cl.reissueGroupTicket(op.param1)
-                        k20.acceptGroupInvitationByTicket(op.param1,Ticket)
-                        k20.kickoutFromGroup(op.param1,[op.param2])
-                        k20.leaveGroup(op.param1)
+                        sw.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        sw.kickoutFromGroup(op.param1,[op.param2])
+                        sw.leaveGroup(op.param1)
                         X = cl.getGroup(op.param1)
                         X.preventedJoinByTicket = True
                         cl.updateGroup(X)
             except:
-                pass             
+                pass
+        if op.type == 19:
+            try:
+                if op.param1 in protectantijs:
+                  if op.param3 in mid:
+                    if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
+                        sw.acceptGroupInvitation(op.param1)
+                        G = sw.getGroup(op.param1)
+                        G.prevenJoinByTicket = False
+                        sw.updateGroup(G)
+                        Ticket = sw.reissueGroupTicket(op.param1)
+                        random.choice(KAC).acceptGroupInvitationByTicket(op.param1,Ticket)
+                        sw.kickoutFromGroup(op.param1,[op.param2])
+                        G.prevenJoinByTicket = True
+                        sw.updateGroup(G)
+                        wait["blacklist"][op.param2] = True
+                        sw.leaveGroup(op.param1)
+                        cl.inviteIntoGroup(op.param1,[Zmid])
+                        cl.inviteIntoGroup(op.param1,[admin])
+                    else:
+                       pass         
                 
         if op.type == 19:
             try:
@@ -2513,6 +2555,11 @@ def bot(op):
                             del Setmain["ARfoto"][Jmid]
                             k20.updateProfilePicture(path)
                             k20.sendMessage(msg.to,"Foto berhasil dirubah")
+                        elif Zmid in Setmain["ARfoto"]:
+                            path = sw.downloadObjectMsg(msg_id)
+                            del Setmain["ARfoto"][Zmid]
+                            sw.updateProfilePicture(path)
+                            sw.sendMessage(msg.to,"Foto berhasil dirubah")                            
 
                if msg.contentType == 1:
                  if msg._from in admin:
@@ -2537,6 +2584,7 @@ def bot(op):
                      path18 = k18.downloadObjectMsg(msg_id)
                      path19 = k19.downloadObjectMsg(msg_id)
                      path20 = k20.downloadObjectMsg(msg_id)
+                     pathjs = sw.downloadObjectMsg(msg_id)                    
                      settings["changePicture"] = False
                      ki.updateProfilePicture(path1)
                      ki.sendMessage(msg.to, "Berhasil mengubah foto profile bot")
@@ -2578,7 +2626,8 @@ def bot(op):
                      k19.sendMessage(msg.to, "Berhasil mengubah foto profile bot")
                      k20.updateProfilePicture(path20)
                      k20.sendMessage(msg.to, "Berhasil mengubah foto profile bot")
-
+                     sw.updateProfilePicture(pathjs)
+                     sw.sendMessage(msg.to, "Berhasil mengubah foto profile bot")
                if msg.contentType == 0:
                     if Setmain["autoRead"] == True:
                         cl.sendChatChecked(msg.to, msg_id)
@@ -2602,6 +2651,7 @@ def bot(op):
                         k18.sendChatChecked(msg.to, msg_id)
                         k19.sendChatChecked(msg.to, msg_id)
                         k20.sendChatChecked(msg.to, msg_id)
+                        sw.sendChatChecked(msg.to, msg_id)                     
                     if text is None:
                         return
                     else:
@@ -2779,7 +2829,10 @@ def bot(op):
                                cl.sendMessage1(msg)
                                msg.contentType = 13
                                msg.contentMetadata = {'mid': Jmid10}
-                               cl.sendMessage1(msg)    
+                               cl.sendMessage1(msg)
+                               msg.contentType = 13
+                               msg.contentMetadata = {'mid': Zmid}
+                               cl.sendMessage1(msg)                            
 
                         elif text.lower() == "ลบแชท":
                           if wait["selfbot"] == True:
@@ -3164,6 +3217,11 @@ def bot(op):
                             if msg._from in admin:
                                 Setmain["ARfoto"][Jmid10] = True
                                 k20.sendText(msg.to,"Kirim fotonya.....")
+                                
+                        elif cmd == "jsup":
+                            if msg._from in admin:
+                                Setmain["ARfoto"][Zmid] = True
+                                sw.sendText(msg.to,"Kirim fotonya.....")                                
 
                         elif cmd.startswith("name: "):
                           if msg._from in admin:
@@ -4200,6 +4258,24 @@ def bot(op):
                                 G = k20.getGroup(msg.to)
                                 G.preventedJoinByTicket = True
                                 k20.updateGroup(G)
+                                
+                        elif cmd == "jsมา":
+                            if msg._from in admin:
+                                G = cl.getGroup(msg.to)
+                                ginfo = cl.getGroup(msg.to)
+                                G.preventedJoinByTicket = False
+                                cl.updateGroup(G)
+                                invsend = 0
+                                Ticket = cl.reissueGroupTicket(msg.to)
+                                sw.acceptGroupInvitationByTicket(msg.to,Ticket)
+                                G = sw.getGroup(msg.to)
+                                G.preventedJoinByTicket = True
+                                sw.updateGroup(G)
+
+                        elif cmd == "jsออก":
+                            if msg._from in admin:
+                                G = cl.getGroup(msg.to)
+                                sw.leaveGroup(msg.to)                                
 
 
                         elif cmd == "สปีด":
@@ -5027,7 +5103,7 @@ def bot(op):
                                     cl.sendMessage(msg.to, "「 Status Protection 」\n" + msgs)
 
 #===========KICKOUT============#
-                        elif ("Gk " in msg.text):
+                        elif ("js " in msg.text):
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                key = eval(msg.contentMetadata["MENTION"])
@@ -5043,9 +5119,9 @@ def bot(op):
                                            cl.updateGroup(G)
                                            invsend = 0
                                            Ticket = cl.reissueGroupTicket(msg.to)
-                                           k18.acceptGroupInvitationByTicket(msg.to,Ticket)
-                                           k18.kickoutFromGroup(msg.to, [target])
-                                           k18.leaveGroup(msg.to)
+                                           sw.acceptGroupInvitationByTicket(msg.to,Ticket)
+                                           sw.kickoutFromGroup(msg.to, [target])
+                                           sw.leaveGroup(msg.to)
                                            X = cl.getGroup(msg.to)
                                            X.preventedJoinByTicket = True
                                            cl.updateGroup(X)
