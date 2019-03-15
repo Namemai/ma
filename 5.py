@@ -738,8 +738,7 @@ def bot(op):
                     else:
                         kb.acceptGroupInvitation(op.param1)
                         ginfo = kb.getGroup(op.param1)
-                    else:
-                        pass
+
 
         if op.type == 17:
             if op.param2 in wait["blacklist"]:
