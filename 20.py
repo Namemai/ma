@@ -138,7 +138,7 @@ responsename33 = k13.getProfile().displayName
 
 k14 = LineClient()
 k14.log("Auth Token : " + str(k14.authToken))
-channel44 = LineChannel(km)
+channel44 = LineChannel(k14)
 k14.log("Channel Access Token : " + str(channel44.channelAccessToken))
 lineProfile = k14.getProfile()
 lineSettings = k14.getSettings()
@@ -519,7 +519,7 @@ def help():
                   "║👿☈ " + key + "Info「@」\n" + \
                   "║👿☈ " + key + "Nk「@」\n" + \
                   "║👿☈ " + key + "Bk「@」\n" + \
-                  "║👿☈ " + key + "Kickall\n" + \
+                  "║👿☈ " + key + "ดึงคิก\n" + \
                   "║👿☈ " + key + "Mybot\n" + \
                   "║👿☈ " + key + "สปีด\n" + \
                   "║👿☈ " + key + "เรา\n" + \
@@ -536,7 +536,7 @@ def help():
                   "║👿☈ " + key + "jsมา\n" + \
                   "║👿☈ " + key + "Bye me\n" + \
                   "║👿☈ " + key + "Leave「Namagrup」\n" + \
-                  "║👿☈ " + key + "เชคห้อง\n" + \
+                  "║👿☈ " + key + "pro on\n" + \
                   "║👿☈ " + key + "เปิดลิ้ง\n" + \
                   "║👿☈ " + key + "ปิดลิ้ง\n" + \
                   "║👿☈ " + key + "ลิ้ง\n" + \
