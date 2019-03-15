@@ -657,8 +657,7 @@ def bot(op):
                                             kb.kickoutFromGroup(op.param1,[op.param2])
                                             kb.leaveGroup(op.param1)
                                             km.updateGroup(X)
-                                    except:
-                                        pass
+
         if op.type == 13:
             if mid in op.param3:
                 if wait["autoLeave"] == True:
