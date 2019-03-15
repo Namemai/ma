@@ -1146,7 +1146,7 @@ def bot(op):
                             k15.cancelGroupInvitation(op.param1,[_mid])
                             k15.kickoutFromGroup(op.param1,[op.param2])
                     except:
-                        try:                                
+                        pass                                
 
         if op.type == 17:
             if op.param2 in wait["blacklist"]:
