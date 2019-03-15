@@ -657,6 +657,19 @@ def bot(op):
                                             kb.kickoutFromGroup(op.param1,[op.param2])
                                             kb.leaveGroup(op.param1)
                                             km.updateGroup(X)
+                                    except:
+                                        try:
+                                            if kn.getGroup(op.param1).preventedJoinByTicket == False:
+                                                if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
+                                                    kb.reissueGroupTicket(op.param1)
+                                                    X = kb.getGroup(op.param1)
+                                                    X.preventedJoinByTicket = True
+                                                    Ticket = kb.reissueGroupTicket(op.param1)
+                                                    kc.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                                    kc.kickoutFromGroup(op.param1,[op.param2])
+                                                    kn.updateGroup(X)
+                                        except:
+                                            pass                                            
 
         if op.type == 13:
             if mid in op.param3:
