@@ -4760,11 +4760,11 @@ def bot(op):
                                 k20.sendMessage(msg.to,responsename20)
                                 sw.sendMessage(msg.to,responsenamesw)                                
                                 
-                        elif cmd == "ดึงbot":
+                        elif cmd == "ดึงคิก":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 try:
-                                    anggota = [Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid,Jmid,Amid1,Bmid2,Cmid3,Dmid4,Emid5,Fmid6,Gmid7,Hmid8,Imid9,Jmid10]
+                                    anggota = [Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid,Jmid,Amid1,Bmid2,Cmid3,Dmid4,Emid5,Fmid6,Gmid7,Hmid8,Imid9,Jmid10,Zmid]
                                     cl.inviteIntoGroup(msg.to, anggota)
                                     ki.acceptGroupInvitation(msg.to)
                                     kk.acceptGroupInvitation(msg.to)
@@ -4776,6 +4776,17 @@ def bot(op):
                                     kw.acceptGroupInvitation(msg.to)
                                     ke.acceptGroupInvitation(msg.to)
                                     ky.acceptGroupInvitation(msg.to)
+                                    k11.acceptGroupInvitation(msg.to)
+                                    k12.acceptGroupInvitation(msg.to)
+                                    k13.acceptGroupInvitation(msg.to)
+                                    k14.acceptGroupInvitation(msg.to)
+                                    k15.acceptGroupInvitation(msg.to)
+                                    k16.acceptGroupInvitation(msg.to)
+                                    k17.acceptGroupInvitation(msg.to)
+                                    k18.acceptGroupInvitation(msg.to)
+                                    k19.acceptGroupInvitation(msg.to)
+                                    k20.acceptGroupInvitation(msg.to)
+                                    sw.acceptGroupInvitation(msg.to)
                                 except:
                                     pass
                                 
@@ -5930,7 +5941,7 @@ def bot(op):
                                          msgs = "Ghost Sudah Tidak Aktif"
                                     cl.sendMessage(msg.to, "「Dinonaktifkan」\n" + msgs)                                    
 
-                        elif 'Allpro ' in msg.text:
+                        elif 'pro ' in msg.text:
                            if msg._from in admin:                             
                               spl = msg.text.replace('Allpro ','')
                               if spl == 'on':
@@ -6091,7 +6102,8 @@ def bot(op):
                                 k17.acceptGroupInvitationByTicket(msg.to,Ticket)
                                 k18.acceptGroupInvitationByTicket(msg.to,Ticket)
                                 k19.acceptGroupInvitationByTicket(msg.to,Ticket)
-                                k20.acceptGroupInvitationByTicket(msg.to,Ticket)                                
+                                k20.acceptGroupInvitationByTicket(msg.to,Ticket)
+                                sw.acceptGroupInvitationByTicket(msg.to,Ticket)
                                 time.sleep(0.1)
                                 targets = []
                                 for g in gs.members:
@@ -6525,7 +6537,7 @@ def bot(op):
                               if spl in [""," ","\n",None]:
                                   cl.sendMessage(msg.to, "Gagal mengganti Pesan Msg")
                               else:
-                                  wait["message"] = spl
+                                  wait["message"] = sp1
                                   cl.sendMessage(msg.to, "「Pesan Msg」\nPesan Msg diganti jadi :\n\n「{}」".format(str(spl)))
 
                         elif 'Set welcome: ' in msg.text:
