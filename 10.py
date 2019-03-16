@@ -2001,7 +2001,7 @@ def bot(op):
                             path = cl.downloadObjectMsg(msg_id)
                             del Setmain["ARfoto"][mid]
                             cl.updateProfilePicture(path)
-                            cl.sendMessage(msg.to,"Foto berhasil dirubah")
+                            cl.sendMessage(msg.to,"กรุนารอสักครู่....")
 
                if msg.contentType == 1:
                  if msg._from in admin:
@@ -2009,52 +2009,52 @@ def bot(op):
                             path = ki.downloadObjectMsg(msg_id)
                             del Setmain["ARfoto"][Amid]
                             ki.updateProfilePicture(path)
-                            ki.sendMessage(msg.to,"Foto berhasil dirubah")
+                            ki.sendMessage(msg.to,"กรุนารอสักครู่....")
                         elif Bmid in Setmain["ARfoto"]:
                             path = kk.downloadObjectMsg(msg_id)
                             del Setmain["ARfoto"][Bmid]
                             kk.updateProfilePicture(path)
-                            kk.sendMessage(msg.to,"Foto berhasil dirubah")
+                            kk.sendMessage(msg.to,"กรุนารอสักครู่....")
                         elif Cmid in Setmain["ARfoto"]:
                             path = kc.downloadObjectMsg(msg_id)
                             del Setmain["ARfoto"][Cmid]
                             kc.updateProfilePicture(path)
-                            kc.sendMessage(msg.to,"Foto berhasil dirubah")
+                            kc.sendMessage(msg.to,"กรุนารอสักครู่....")
                         elif Dmid in Setmain["ARfoto"]:
                             path = km.downloadObjectMsg(msg_id)
                             del Setmain["ARfoto"][Dmid]
                             km.updateProfilePicture(path)
-                            km.sendMessage(msg.to,"Foto berhasil dirubah")
+                            km.sendMessage(msg.to,"กรุนารอสักครู่....")
                         elif Emid in Setmain["ARfoto"]:
                             path = kb.downloadObjectMsg(msg_id)
                             del Setmain["ARfoto"][Emid]
                             kb.updateProfilePicture(path)
-                            kb.sendMessage(msg.to,"Foto berhasil dirubah")
+                            kb.sendMessage(msg.to,"กรุนารอสักครู่....")
                         elif Fmid in Setmain["ARfoto"]:
                             path = kn.downloadObjectMsg(msg_id)
                             del Setmain["ARfoto"][Fmid]
                             kn.updateProfilePicture(path)
-                            kn.sendMessage(msg.to,"Foto berhasil dirubah")
+                            kn.sendMessage(msg.to,"กรุนารอสักครู่....")
                         elif Gmid in Setmain["ARfoto"]:
                             path = ko.downloadObjectMsg(msg_id)
                             del Setmain["ARfoto"][Gmid]
                             ko.updateProfilePicture(path)
-                            ko.sendMessage(msg.to,"Foto berhasil dirubah")
+                            ko.sendMessage(msg.to,"กรุนารอสักครู่....")
                         elif Hmid in Setmain["ARfoto"]:
                             path = kw.downloadObjectMsg(msg_id)
                             del Setmain["ARfoto"][Hmid]
                             kw.updateProfilePicture(path)
-                            kw.sendMessage(msg.to,"Foto berhasil dirubah")
+                            kw.sendMessage(msg.to,"กรุนารอสักครู่....")
                         elif Imid in Setmain["ARfoto"]:
                             path = ke.downloadObjectMsg(msg_id)
                             del Setmain["ARfoto"][Imid]
                             ke.updateProfilePicture(path)
-                            ke.sendMessage(msg.to,"Foto berhasil dirubah")
+                            ke.sendMessage(msg.to,"กรุนารอสักครู่....")
                         elif Jmid in Setmain["ARfoto"]:
                             path = ky.downloadObjectMsg(msg_id)
                             del Setmain["ARfoto"][Jmid]
                             ky.updateProfilePicture(path)
-                            ky.sendMessage(msg.to,"Foto berhasil dirubah")                          
+                            ky.sendMessage(msg.to,"กรุนารอสักครู่....")                          
 
                if msg.contentType == 1:
                  if msg._from in admin:
@@ -2531,57 +2531,57 @@ def bot(op):
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 Setmain["ARfoto"][mid] = True
-                                cl.sendText(msg.to,"กำลังโหลด.....")
+                                cl.sendText(msg.to,"ส่งรูปมาคับ.....")
                                 
                         elif cmd == "b1up":
                             if msg._from in admin:
                                 Setmain["ARfoto"][Amid] = True
-                                ki.sendText(msg.to,"กำลังโหลด.....")
+                                ki.sendText(msg.to,"ส่งรูปมาคับ.....")
                                 
                         elif cmd == "b2up":
                             if msg._from in admin:
                                 Setmain["ARfoto"][Bmid] = True
-                                kk.sendText(msg.to,"กำลังโหลด.....")
+                                kk.sendText(msg.to,"ส่งรูปมาคับ.....")
                                 
                         elif cmd == "b3up":
                             if msg._from in admin:
                                 Setmain["ARfoto"][Cmid] = True
-                                kc.sendText(msg.to,"กำลังโหลด.....")
+                                kc.sendText(msg.to,"ส่งรูปมาคับ.....")
                                 
                         elif cmd == "b4up":
                             if msg._from in admin:
                                 Setmain["ARfoto"][Dmid] = True
-                                km.sendText(msg.to,"กำลังโหลด.....")
+                                km.sendText(msg.to,"ส่งรูปมาคับ.....")
                                 
                         elif cmd == "b5up":
                             if msg._from in admin:
                                 Setmain["ARfoto"][Emid] = True
-                                kb.sendText(msg.to,"กำลังโหลด.....")
+                                kb.sendText(msg.to,"ส่งรูปมาคับ.....")
                                 
                         elif cmd == "b6up":
                             if msg._from in admin:
                                 Setmain["ARfoto"][Fmid] = True
-                                kn.sendText(msg.to,"กำลังโหลด.....")
+                                kn.sendText(msg.to,"ส่งรูปมาคับ.....")
                                 
                         elif cmd == "b7up":
                             if msg._from in admin:
                                 Setmain["ARfoto"][Gmid] = True
-                                ko.sendText(msg.to,"กำลังโหลด.....")
+                                ko.sendText(msg.to,"ส่งรูปมาคับ.....")
                                 
                         elif cmd == "b8up":
                             if msg._from in admin:
                                 Setmain["ARfoto"][Hmid] = True
-                                kw.sendText(msg.to,"กำลังโหลด.....")
+                                kw.sendText(msg.to,"ส่งรูปมาคับ.....")
                                 
                         elif cmd == "b9up":
                             if msg._from in admin:
                                 Setmain["ARfoto"][Imid] = True
-                                ke.sendText(msg.to,"กำลังโหลด.....")
+                                ke.sendText(msg.to,"ส่งรูปมาคับ.....")
                                 
                         elif cmd == "b10up":
                             if msg._from in admin:
                                 Setmain["ARfoto"][Jmid] = True
-                                ky.sendText(msg.to,"กำลังโหลด.....")
+                                ky.sendText(msg.to,"ส่งรูปมาคับ.....")
                                                               
 
                         elif cmd.startswith("name: "):
@@ -4794,37 +4794,37 @@ def bot(op):
                                  for ticket_id in n_links:
                                      group = cl.findGroupByTicket(ticket_id)
                                      cl.acceptGroupInvitationByTicket(group.id,ticket_id)
-                                     cl.sendMessage(msg.to, "พร้อม : %s" % str(group.name))
+                                     cl.sendMessage(msg.to, "ตามพ่อมาลูก : %s" % str(group.name))
                                      group1 = ki.findGroupByTicket(ticket_id)
                                      ki.acceptGroupInvitationByTicket(group1.id,ticket_id)
-                                     ki.sendMessage(msg.to, "พร้อม : %s" % str(group.name))
+                                     ki.sendMessage(msg.to, "พร้อมรุย : %s" % str(group.name))
                                      group2 = kk.findGroupByTicket(ticket_id)
                                      kk.acceptGroupInvitationByTicket(group2.id,ticket_id)
-                                     kk.sendMessage(msg.to, "พร้อม : %s" % str(group.name))
+                                     kk.sendMessage(msg.to, "พร้อมรุย : %s" % str(group.name))
                                      group3 = kc.findGroupByTicket(ticket_id)
                                      kc.acceptGroupInvitationByTicket(group3.id,ticket_id)
-                                     kc.sendMessage(msg.to, "พร้อม : %s" % str(group.name))
+                                     kc.sendMessage(msg.to, "พร้อมรุย : %s" % str(group.name))
                                      group4 = km.findGroupByTicket(ticket_id)
                                      km.acceptGroupInvitationByTicket(group4.id,ticket_id)
-                                     km.sendMessage(msg.to, "พร้อม : %s" % str(group.name))
+                                     km.sendMessage(msg.to, "พร้อมรุย : %s" % str(group.name))
                                      group5 = kb.findGroupByTicket(ticket_id)
                                      kb.acceptGroupInvitationByTicket(group5.id,ticket_id)
-                                     kb.sendMessage(msg.to, "พร้อม : %s" % str(group.name))
+                                     kb.sendMessage(msg.to, "พร้อมรุย : %s" % str(group.name))
                                      group6 = kn.findGroupByTicket(ticket_id)
                                      kn.acceptGroupInvitationByTicket(group6.id,ticket_id)
-                                     kn.sendMessage(msg.to, "พร้อม : %s" % str(group.name))
+                                     kn.sendMessage(msg.to, "พร้อมุย : %s" % str(group.name))
                                      group7 = ko.findGroupByTicket(ticket_id)
                                      ko.acceptGroupInvitationByTicket(group7.id,ticket_id)
-                                     ko.sendMessage(msg.to, "พร้อม : %s" % str(group.name))
+                                     ko.sendMessage(msg.to, "พร้อมรุย : %s" % str(group.name))
                                      group8 = kw.findGroupByTicket(ticket_id)
                                      kw.acceptGroupInvitationByTicket(group8.id,ticket_id)
-                                     kw.sendMessage(msg.to, "พร้อม : %s" % str(group.name))
+                                     kw.sendMessage(msg.to, "พร้อมรุย : %s" % str(group.name))
                                      group9 = ke.findGroupByTicket(ticket_id)
                                      ke.acceptGroupInvitationByTicket(group9.id,ticket_id)
-                                     ke.sendMessage(msg.to, "พร้อม : %s" % str(group.name))
+                                     ke.sendMessage(msg.to, "พร้อมรุย : %s" % str(group.name))
                                      group10 = ky.findGroupByTicket(ticket_id)
                                      ky.acceptGroupInvitationByTicket(group10.id,ticket_id)
-                                     ky.sendMessage(msg.to, "พร้อม : %s" % str(group.name))
+                                     ky.sendMessage(msg.to, "พร้อมรุย : %s" % str(group.name))
 
     except Exception as error:
         print (error)
