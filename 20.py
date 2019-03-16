@@ -521,8 +521,8 @@ def help():
                   "║👿☈ " + key + "Sepinya\n" + \
                   "║👿☈ " + key + "มา   คิกเข้า\n" + \
                   "║👿☈ " + key + "ออก   คิกออก\n" + \
-                  "║👿☈ " + key + "jsออก\n" + \
-                  "║👿☈ " + key + "jsมา\n" + \
+                  "║👿☈ " + key + "cb\n" + \
+                  "║👿☈ " + key + "js\n" + \
                   "║👿☈ " + key + "Bye me\n" + \
                   "║👿☈ " + key + "Leave「Namagrup」\n" + \
                   "║👿☈ " + key + "pro on\n" + \
@@ -643,7 +643,7 @@ def helpbot():
                   "║🛡☈ " + key + "Blc\n" + \
                   "║🛡☈ " + key + "Ban:on\n" + \
                   "║🛡☈ " + key + "Unban:on\n" + \
-                  "║🛡☈ " + key + "Ban「@」\n" + \
+                  "║🛡☈ " + key + "แบน「@」\n" + \
                   "║🛡☈ " + key + "Unban「@」\n" + \
                   "║🛡☈ " + key + "Talkban「@」\n" + \
                   "║🛡☈ " + key + "Untalkban「@」\n" + \
@@ -4730,7 +4730,7 @@ def bot(op):
                                     mc += str(c) + ". " +cl.getContact(m_id).displayName + "\n"
                                 cl.sendMessage(msg.to,"◄━━◈⟦SELFBOT⟧◈━━►\n\n😈 Super admin:\n"+ma+"\n😈 Admin:\n"+mb+"\n😈 Staff:\n"+mc+"\nTotal「%s」 Anggota" %(str(len(owner)+len(admin)+len(staff))))
 
-                        elif cmd == "listprotect":
+                        elif cmd == "เชคกัน":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 ma = ""
@@ -6448,7 +6448,7 @@ def bot(op):
                                 wait["Talkdblacklist"] = True
                                 cl.sendText(msg.to,"Kirim kontaknya...")
 
-                        elif ("Ban " in msg.text):
+                        elif ("แบน " in msg.text):
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                key = eval(msg.contentMetadata["MENTION"])
@@ -6529,13 +6529,13 @@ def bot(op):
                                         ma = cl.getContact(i)
                                         cl.sendMessage(msg.to, None, contentMetadata={'mid': i}, contentType=13)
 
-                        elif cmd == "clearban" or text.lower() == 'clearban':
+                        elif cmd == "cb" or text.lower() == 'clearban':
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                               wait["blacklist"] = {}
                               ragets = cl.getContacts(wait["blacklist"])
                               mc = "「%i」User Blacklist" % len(ragets)
-                              cl.sendMessage(msg.to,"Sukses membersihkan " +mc)
+                              cl.sendMessage(msg.to,"ล้างดำเรียบ100 " +mc)
 #===========COMMAND SET============#
                         elif 'Set pesan: ' in msg.text:
                            if msg._from in admin:
