@@ -3819,13 +3819,13 @@ def bot(op):
                                Setmain["keyCommand"] = ""
                                cl.sendMessage(msg.to, "「Setkey」\nSetkey mu kembali ke awal")
 
-                        elif cmd == "restart":
+                        elif cmd == "รีบอท":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
-                               cl.sendMessage(msg.to, "Tunggu sebentar...")
+                               cl.sendMessage(msg.to, "กรุนาไปกดลิ้งเพื่อเข้าระบบ...")
                                Setmain["restartPoint"] = msg.to
                                restartBot()
-                               cl.sendMessage(msg.to, "Silahkan gunakan seperti semula...")
+                               cl.sendMessage(msg.to, "เข้าสู่ระบบเรียบร้อย...")
                             
                         elif cmd == "runtime":
                           if wait["selfbot"] == True:
