@@ -221,7 +221,7 @@ wait = {
     "Respontag":"Apaan tag2 kalo penting VC aja langsung",
     "welcome":"Selamat datang & semoga betah",
     "comment":"Like like & like ",
-    "message":"[ Auto block ]\nThanks for add me 😭",
+    "message":"[ Auto block ]\n คุนถูกบล็อคแล้ว รอเจ้าของไลมาปลดให้หน้าา 😭",
 }
 
 read = {
@@ -773,121 +773,99 @@ def bot(op):
                     if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
                         cl.acceptGroupInvitation(op.param1)
                         ginfo = cl.getGroup(op.param1)
-                        cl.sendMessage(op.param1,"Haii " +str(ginfo.name))
                     else:
                         cl.acceptGroupInvitation(op.param1)
                         ginfo = cl.getGroup(op.param1)
-                        cl.sendMessage(op.param1,"Haii " + str(ginfo.name))
             if Amid in op.param3:
                 if wait["autoJoin"] == True:
                     if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
                         ki.acceptGroupInvitation(op.param1)
                         ginfo = ki.getGroup(op.param1)
-                        ki.sendMessage(op.param1,"Selamat Tinggal\n Group " +str(ginfo.name))
                         ki.leaveGroup(op.param1)
                     else:
                         ki.acceptGroupInvitation(op.param1)
                         ginfo = ki.getGroup(op.param1)
-                        ki.sendMessage(op.param1,"Hai " + str(ginfo.name))
             if Bmid in op.param3:
                 if wait["autoJoin"] == True:
                     if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
                         kk.acceptGroupInvitation(op.param1)
                         ginfo = kk.getGroup(op.param1)
-                        ki.sendMessage(op.param1,"Selamat Tinggal\n Group " +str(ginfo.name))
                         kk.leaveGroup(op.param1)
                     else:
                         kk.acceptGroupInvitation(op.param1)
                         ginfo = kk.getGroup(op.param1)
-                        kk.sendMessage(op.param1,"Hai " + str(ginfo.name))
             if Cmid in op.param3:
                 if wait["autoJoin"] == True:
                     if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
                         kc.acceptGroupInvitation(op.param1)
                         ginfo = kc.getGroup(op.param1)
-                        kc.sendMessage(op.param1,"Selamat Tinggal\n Group " +str(ginfo.name))
                         kc.leaveGroup(op.param1)
                     else:
                         kc.acceptGroupInvitation(op.param1)
                         ginfo = kc.getGroup(op.param1)
-                        kc.sendMessage(op.param1,"Hai " + str(ginfo.name))
             if Dmid in op.param3:
                 if wait["autoJoin"] == True:
                     if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
                         km.acceptGroupInvitation(op.param1)
                         ginfo = km.getGroup(op.param1)
-                        km.sendMessage(op.param1,"Selamat Tinggal\n Group " +str(ginfo.name))
                         km.leaveGroup(op.param1)
                     else:
                         kb.acceptGroupInvitation(op.param1)
                         ginfo = km.getGroup(op.param1)
-                        kb.sendMessage(op.param1,"Hai " + str(ginfo.name))
             if Emid in op.param3:
                 if wait["autoJoin"] == True:
                     if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
                         kb.acceptGroupInvitation(op.param1)
                         ginfo = kb.getGroup(op.param1)
-                        kb.sendMessage(op.param1,"Selamat Tinggal\n Group " +str(ginfo.name))
                         kb.leaveGroup(op.param1)
                     else:
                         kb.acceptGroupInvitation(op.param1)
                         ginfo = kb.getGroup(op.param1)
-                        kb.sendMessage(op.param1,"Hai " + str(ginfo.name))
             if Fmid in op.param3:
                 if wait["autoJoin"] == True:
                     if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
                         kn.acceptGroupInvitation(op.param1)
                         ginfo = kn.getGroup(op.param1)
-                        kn.sendMessage(op.param1,"Selamat Tinggal\n Group " +str(ginfo.name))
                         kn.leaveGroup(op.param1)
                     else:
                         kn.acceptGroupInvitation(op.param1)
                         ginfo = kn.getGroup(op.param1)
-                        kn.sendMessage(op.param1,"Hai " + str(ginfo.name))
             if Gmid in op.param3:
                 if wait["autoJoin"] == True:
                     if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
                         ko.acceptGroupInvitation(op.param1)
                         ginfo = ko.getGroup(op.param1)
-                        ko.sendMessage(op.param1,"Selamat Tinggal\n Group " +str(ginfo.name))
                         ko.leaveGroup(op.param1)
                     else:
                         ko.acceptGroupInvitation(op.param1)
                         ginfo = ko.getGroup(op.param1)
-                        ko.sendMessage(op.param1,"Hai " + str(ginfo.name))
             if Hmid in op.param3:
                 if wait["autoJoin"] == True:
                     if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
                         kw.acceptGroupInvitation(op.param1)
                         ginfo = kw.getGroup(op.param1)
-                        kw.sendMessage(op.param1,"Selamat Tinggal\n Group " +str(ginfo.name))
                         kw.leaveGroup(op.param1)
                     else:
                         kw.acceptGroupInvitation(op.param1)
                         ginfo = kw.getGroup(op.param1)
-                        kw.sendMessage(op.param1,"Hai " + str(ginfo.name))
             if Imid in op.param3:
                 if wait["autoJoin"] == True:
                     if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
                         ke.acceptGroupInvitation(op.param1)
                         ginfo = ke.getGroup(op.param1)
-                        ke.sendMessage(op.param1,"Selamat Tinggal\n Group " +str(ginfo.name))
                         ke.leaveGroup(op.param1)
                     else:
                         ke.acceptGroupInvitation(op.param1)
                         ginfo = ke.getGroup(op.param1)
-                        ke.sendMessage(op.param1,"Hai " + str(ginfo.name))
             if Jmid in op.param3:
                 if wait["autoJoin"] == True:
                     if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
                         ky.acceptGroupInvitation(op.param1)
                         ginfo = ky.getGroup(op.param1)
-                        ky.sendMessage(op.param1,"Selamat Tinggal\n Group " +str(ginfo.name))
                         ky.leaveGroup(op.param1)
                     else:
                         ky.acceptGroupInvitation(op.param1)
-                        ginfo = ky.getGroup(op.param1)
-                        ky.sendMessage(op.param1,"Hai " + str(ginfo.name))                   
+                        ginfo = ky.getGroup(op.param1)                  
 
         if op.type == 13:
             if op.param1 in protectinvite:
@@ -1094,7 +1072,7 @@ def bot(op):
                 return
 
         if op.type == 19:
-            if mid in op.param3:
+            if Amid in op.param3:
                 if op.param2 in Bots:
                     pass
                 if op.param2 in owner:
@@ -1155,7 +1133,7 @@ def bot(op):
                                             pass
                 return
 
-            if Amid in op.param3:
+            if Bmid in op.param3:
                 if op.param2 in Bots:
                     pass
                 if op.param2 in owner:
@@ -1216,7 +1194,7 @@ def bot(op):
                                             pass
                 return
 
-            if Bmid in op.param3:
+            if Cmid in op.param3:
                 if op.param2 in Bots:
                     pass
                 if op.param2 in owner:
@@ -1277,7 +1255,7 @@ def bot(op):
                                             pass
                 return
 
-            if Cmid in op.param3:
+            if Dmid in op.param3:
                 if op.param2 in Bots:
                     pass
                 if op.param2 in owner:
@@ -1336,7 +1314,7 @@ def bot(op):
                                             kc.acceptGroupInvitation(op.param1)
                                         except:
                                             pass
-            if Dmid in op.param3:
+            if Emid in op.param3:
                 if op.param2 in Bots:
                     pass
                 if op.param2 in owner:
@@ -1397,7 +1375,7 @@ def bot(op):
                                             pass
                 return
 
-            if Emid in op.param3:
+            if Fmid in op.param3:
                 if op.param2 in Bots:
                     pass
                 if op.param2 in owner:
@@ -1458,7 +1436,7 @@ def bot(op):
                                             pass
                 return
 
-            if Fmid in op.param3:
+            if Gmid in op.param3:
                 if op.param2 in Bots:
                     pass
                 if op.param2 in owner:
@@ -1517,7 +1495,7 @@ def bot(op):
                                             kn.acceptGroupInvitation(op.param1)
                                         except:
                                             pass
-            if Gmid in op.param3:
+            if Hmid in op.param3:
                 if op.param2 in Bots:
                     pass
                 if op.param2 in owner:
@@ -1578,7 +1556,7 @@ def bot(op):
                                             pass
                 return
 
-            if Hmid in op.param3:
+            if Imid in op.param3:
                 if op.param2 in Bots:
                     pass
                 if op.param2 in owner:
@@ -1639,7 +1617,7 @@ def bot(op):
                                             pass
                 return
 
-            if Imid in op.param3:
+            if Jmid in op.param3:
                 if op.param2 in Bots:
                     pass
                 if op.param2 in owner:
@@ -1700,7 +1678,7 @@ def bot(op):
                                             pass
                 return
 
-            if Jmid in op.param3:
+            if mid in op.param3:
                 if op.param2 in Bots:
                     pass
                 if op.param2 in owner:
@@ -2138,12 +2116,12 @@ def bot(op):
                         if cmd == "self on":
                             if msg._from in admin:
                                 wait["selfbot"] = True
-                                cl.sendText(msg.to, "Selfbot diaktifkan")
+                                cl.sendText(msg.to, "Selfbot")
                                 
                         elif cmd == "self off":
                             if msg._from in admin:
                                 wait["selfbot"] = False
-                                cl.sendText(msg.to, "Selfbot dinonaktifkan")
+                                cl.sendText(msg.to, "Selfbot")
                                             
                         elif cmd == "h bot":
                           if wait["selfbot"] == True:
@@ -2237,12 +2215,9 @@ def bot(op):
                                else:
                                    cl.sendImageWithURL(msg.to, 'http://dl.profile.line.naver.jp'+str(mi.picturePath))
 
-                        elif cmd == "mybot":
+                        elif cmd == "mebot":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
-                               msg.contentType = 13
-                               msg.contentMetadata = {'mid': mid}
-                               cl.sendMessage1(msg)
                                msg.contentType = 13
                                msg.contentMetadata = {'mid': Amid}
                                cl.sendMessage1(msg)
@@ -2335,10 +2310,10 @@ def bot(op):
                         elif cmd == "รีบอท":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
-                               cl.sendMessage(msg.to, "Tunggu sebentar...")
+                               cl.sendMessage(msg.to, "ไปกดลิ้งเพื่อล็อคอินใหม่...")
                                Setmain["restartPoint"] = msg.to
                                restartBot()
-                               cl.sendMessage(msg.to, "Silahkan gunakan seperti semula...")
+                               cl.sendMessage(msg.to, "เข้าสู่ระบบแล้ว...")
                             
                         elif cmd == "runtime":
                           if wait["selfbot"] == True:
@@ -2552,61 +2527,61 @@ def bot(op):
                                 settings["changePicture"] = True
                                 cl.sendText(msg.to,"Kirim fotonya.....")
                                 
-                        elif cmd == "upfoto":
+                        elif cmd == "meup":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 Setmain["ARfoto"][mid] = True
-                                cl.sendText(msg.to,"Kirim fotonya.....")
+                                cl.sendText(msg.to,"กำลังโหลด.....")
                                 
                         elif cmd == "b1up":
                             if msg._from in admin:
                                 Setmain["ARfoto"][Amid] = True
-                                ki.sendText(msg.to,"Kirim fotonya.....")
+                                ki.sendText(msg.to,"กำลังโหลด.....")
                                 
                         elif cmd == "b2up":
                             if msg._from in admin:
                                 Setmain["ARfoto"][Bmid] = True
-                                kk.sendText(msg.to,"Kirim fotonya.....")
+                                kk.sendText(msg.to,"กำลังโหลด.....")
                                 
                         elif cmd == "b3up":
                             if msg._from in admin:
                                 Setmain["ARfoto"][Cmid] = True
-                                kc.sendText(msg.to,"Kirim fotonya.....")
+                                kc.sendText(msg.to,"กำลังโหลด.....")
                                 
                         elif cmd == "b4up":
                             if msg._from in admin:
                                 Setmain["ARfoto"][Dmid] = True
-                                km.sendText(msg.to,"Kirim fotonya.....")
+                                km.sendText(msg.to,"กำลังโหลด.....")
                                 
                         elif cmd == "b5up":
                             if msg._from in admin:
                                 Setmain["ARfoto"][Emid] = True
-                                kb.sendText(msg.to,"Kirim fotonya.....")
+                                kb.sendText(msg.to,"กำลังโหลด.....")
                                 
                         elif cmd == "b6up":
                             if msg._from in admin:
                                 Setmain["ARfoto"][Fmid] = True
-                                kn.sendText(msg.to,"Kirim fotonya.....")
+                                kn.sendText(msg.to,"กำลังโหลด.....")
                                 
                         elif cmd == "b7up":
                             if msg._from in admin:
                                 Setmain["ARfoto"][Gmid] = True
-                                ko.sendText(msg.to,"Kirim fotonya.....")
+                                ko.sendText(msg.to,"กำลังโหลด.....")
                                 
                         elif cmd == "b8up":
                             if msg._from in admin:
                                 Setmain["ARfoto"][Hmid] = True
-                                kw.sendText(msg.to,"Kirim fotonya.....")
+                                kw.sendText(msg.to,"กำลังโหลด.....")
                                 
                         elif cmd == "b9up":
                             if msg._from in admin:
                                 Setmain["ARfoto"][Imid] = True
-                                ke.sendText(msg.to,"Kirim fotonya.....")
+                                ke.sendText(msg.to,"กำลังโหลด.....")
                                 
                         elif cmd == "b10up":
                             if msg._from in admin:
                                 Setmain["ARfoto"][Jmid] = True
-                                ky.sendText(msg.to,"Kirim fotonya.....")
+                                ky.sendText(msg.to,"กำลังโหลด.....")
                                                               
 
                         elif cmd.startswith("name: "):
@@ -3288,15 +3263,15 @@ def bot(op):
                                 kw.acceptGroupInvitationByTicket(msg.to,Ticket)
                                 ke.acceptGroupInvitationByTicket(msg.to,Ticket)
                                 ky.acceptGroupInvitationByTicket(msg.to,Ticket)                                
-                                G = cl.getGroup(msg.to)
+                                G = ky.getGroup(msg.to)
                                 G.preventedJoinByTicket = True
-                                cl.updateGroup(G)
+                                ky.updateGroup(G)                                
 
                         elif cmd == "ออก":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 G = cl.getGroup(msg.to)
-                                ki.sendText(msg.to, "Bye bye fams "+str(G.name))
+                                ki.sendText(msg.to, "ลาก่อย "+str(G.name))
                                 ki.leaveGroup(msg.to)
                                 kk.leaveGroup(msg.to)
                                 kc.leaveGroup(msg.to)
@@ -4819,37 +4794,37 @@ def bot(op):
                                  for ticket_id in n_links:
                                      group = cl.findGroupByTicket(ticket_id)
                                      cl.acceptGroupInvitationByTicket(group.id,ticket_id)
-                                     cl.sendMessage(msg.to, "Masuk : %s" % str(group.name))
+                                     cl.sendMessage(msg.to, "พร้อม : %s" % str(group.name))
                                      group1 = ki.findGroupByTicket(ticket_id)
                                      ki.acceptGroupInvitationByTicket(group1.id,ticket_id)
-                                     ki.sendMessage(msg.to, "Masuk : %s" % str(group.name))
+                                     ki.sendMessage(msg.to, "พร้อม : %s" % str(group.name))
                                      group2 = kk.findGroupByTicket(ticket_id)
                                      kk.acceptGroupInvitationByTicket(group2.id,ticket_id)
-                                     kk.sendMessage(msg.to, "Masuk : %s" % str(group.name))
+                                     kk.sendMessage(msg.to, "พร้อม : %s" % str(group.name))
                                      group3 = kc.findGroupByTicket(ticket_id)
                                      kc.acceptGroupInvitationByTicket(group3.id,ticket_id)
-                                     kc.sendMessage(msg.to, "Masuk : %s" % str(group.name))
+                                     kc.sendMessage(msg.to, "พร้อม : %s" % str(group.name))
                                      group4 = km.findGroupByTicket(ticket_id)
                                      km.acceptGroupInvitationByTicket(group4.id,ticket_id)
-                                     km.sendMessage(msg.to, "Masuk : %s" % str(group.name))
+                                     km.sendMessage(msg.to, "พร้อม : %s" % str(group.name))
                                      group5 = kb.findGroupByTicket(ticket_id)
                                      kb.acceptGroupInvitationByTicket(group5.id,ticket_id)
-                                     kb.sendMessage(msg.to, "Masuk : %s" % str(group.name))
+                                     kb.sendMessage(msg.to, "พร้อม : %s" % str(group.name))
                                      group6 = kn.findGroupByTicket(ticket_id)
                                      kn.acceptGroupInvitationByTicket(group6.id,ticket_id)
-                                     kn.sendMessage(msg.to, "Masuk : %s" % str(group.name))
+                                     kn.sendMessage(msg.to, "พร้อม : %s" % str(group.name))
                                      group7 = ko.findGroupByTicket(ticket_id)
                                      ko.acceptGroupInvitationByTicket(group7.id,ticket_id)
-                                     ko.sendMessage(msg.to, "Masuk : %s" % str(group.name))
+                                     ko.sendMessage(msg.to, "พร้อม : %s" % str(group.name))
                                      group8 = kw.findGroupByTicket(ticket_id)
                                      kw.acceptGroupInvitationByTicket(group8.id,ticket_id)
-                                     kw.sendMessage(msg.to, "Masuk : %s" % str(group.name))
+                                     kw.sendMessage(msg.to, "พร้อม : %s" % str(group.name))
                                      group9 = ke.findGroupByTicket(ticket_id)
                                      ke.acceptGroupInvitationByTicket(group9.id,ticket_id)
-                                     ke.sendMessage(msg.to, "Masuk : %s" % str(group.name))
+                                     ke.sendMessage(msg.to, "พร้อม : %s" % str(group.name))
                                      group10 = ky.findGroupByTicket(ticket_id)
                                      ky.acceptGroupInvitationByTicket(group10.id,ticket_id)
-                                     ky.sendMessage(msg.to, "Masuk : %s" % str(group.name))
+                                     ky.sendMessage(msg.to, "พร้อม : %s" % str(group.name))
 
     except Exception as error:
         print (error)
