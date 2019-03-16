@@ -984,7 +984,7 @@ def bot(op):
             print ("[ 5 ] SELFBOT-BY:꧁❈§{MAI}§❈꧂ AUTO BLOCK")
             if wait["autoBlock"] == True:
                 cl.sendText(op.param1, wait["message"])
-                cl.sendContact(op.param1, "u05a8619c623960b67de73061c74e212e")
+                cl.sendContact(op.param1, "uc66e45201d1612eb4ce7b3a86bac4685")
                 cl.blockContact(op.param1)
 
         if op.type == 19:
