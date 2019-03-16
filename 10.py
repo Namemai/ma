@@ -2151,7 +2151,7 @@ def bot(op):
                                helpMessage1 = helpbot()
                                cl.sendMessage(msg.to, str(helpMessage1))
 
-                        elif cmd == "เชคค่า":
+                        elif cmd == "st":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 tz = pytz.timezone("Asia/Jakarta")
@@ -2332,7 +2332,7 @@ def bot(op):
                                Setmain["keyCommand"] = ""
                                cl.sendMessage(msg.to, "「Setkey」\nSetkey mu kembali ke awal")
 
-                        elif cmd == "restart":
+                        elif cmd == "รีบอท":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                cl.sendMessage(msg.to, "Tunggu sebentar...")
