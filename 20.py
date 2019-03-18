@@ -4028,7 +4028,7 @@ def bot(op):
                                runtime = format_timespan(runtime)
                                cl.sendMessage(to, "login bot selama {}".format(str(runtime)))
                             
-                        elif msg.text.lower() == 'เชคบอท'
+                        elif msg.text.lower() == 'เชคบอท':
                                cl.sendMessage(msg.to," เริ่มนับ ")
                                ki.sendMessage(msg.to,"➲ 1 อยู่ครับเจ้านาย")
                                kk.sendMessage(msg.to,"➲ 2 อยู่ครับเจ้านาย")
