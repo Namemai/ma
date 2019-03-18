@@ -5285,9 +5285,8 @@ def bot(op):
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                start = time.time()
-                               cl.sendMessage(msg.to, "Speed me")
                                elapsed_time = time.time() - start
-                               cl.sendMessage(msg.to, "{} detik".format(str(elapsed_time)))
+                               cl.sendMessage(msg.to, "{}ความเร็วคิก".format(str(elapsed_time)))
 
                         elif cmd == "speedbot" or cmd == "spb":
                           if wait["selfbot"] == True:
