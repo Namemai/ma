@@ -1636,7 +1636,7 @@ def bot(op):
                     pass
                 else:
                     wait["blacklist"][op.param2] = True
-                    try:l
+                    try:
                         ki.kickoutFromGroup(op.param1,[op.param2])
                         ki.inviteIntoGroup(op.param1,[op.param3])
                         cl.acceptGroupInvitation(op.param1)
