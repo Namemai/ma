@@ -202,6 +202,32 @@ responsename102 = k20.getProfile().displayName
 
 print("---LOGIN SUCCES---\nBY: SELFBOT-BY:꧁❈§{MAI}§❈꧂")
 
+oepoll = OEPoll(k20)
+oepoll = OEPoll(k19)
+oepoll = OEPoll(k18)
+oepoll = OEPoll(k17)
+oepoll = OEPoll(k16)
+oepoll = OEPoll(k15)
+oepoll = OEPoll(k14)
+oepoll = OEPoll(k13)
+oepoll = OEPoll(k12)
+oepoll = OEPoll(k11)
+oepoll = OEPoll(ky)
+oepoll = OEPoll(ke)
+oepoll = OEPoll(kw)
+oepoll = OEPoll(ko)
+oepoll = OEPoll(kn)
+oepoll = OEPoll(kb)
+oepoll = OEPoll(km)
+oepoll = OEPoll(kc)
+oepoll = OEPoll(kk)
+oepoll = OEPoll(ki)
+oepoll = OEPoll(cl)
+readOpen = codecs.open("read.json","r","utf-8")
+settingsOpen = codecs.open("temp.json","r","utf-8")
+read = json.load(readOpen)
+settings = json.load(settingsOpen)
+
 poll = LinePoll(cl)
 call = cl
 creator = ["uc66e45201d1612eb4ce7b3a86bac4685"]
@@ -240,6 +266,9 @@ protectjoin = []
 protectinvite = []
 protectcancel = []
 protectantijs = []
+autocancel = {}
+autoinvite = []
+autoleaveroom = []
 ghost = []
 welcome = []
 
@@ -314,12 +343,13 @@ wait = {
     "Talkdblacklist":False,
     "talkban":True,
     "contact":False,
-    'autoJoin':True,
+    'autoJoin':False,
     'autoBlock':True,
     'autoAdd':False,
     'autoRead':False,
     'autoLeave':True,
     'autoLeave1':True,
+    "leaveRoom": False,    
     "detectMention":False,
     "Mentionkick":False,
     "welcomeOn":False,
@@ -495,6 +525,21 @@ def command(text):
     else:
         cmd = "command"
     return cmd
+
+def backupData():
+    try:
+        backup = settings
+        f = codecs.open('temp.json','w','utf-8')
+        json.dump(backup, f, sort_keys=True, indent=4, ensure_ascii=False)
+        backup = read
+        f = codecs.open('read.json','w','utf-8')
+        json.dump(backup, f, sort_keys=True, indent=4, ensure_ascii=False)
+        return True
+    except Exception as error:
+        logError(error)
+        return False
+#==============================================================================#
+
 
 def help():
     key = Setmain["keyCommand"]
@@ -1655,6 +1700,9 @@ def bot(op):
                                     G = random.choice(KAC).getGroup(op.param1)
                                     G.preventedJoinByTicket = True
                                     random.choice(KAC).updateGroup(G)
+                                    settings["blacklist"][op.param2] = True
+                                    f=codecs.open('st2__b.json','w','utf-8')
+                                    json.dump(settings["blacklist"], f, sort_keys=True, indent=4,ensure_ascii=False)
                                     ki.updateGroup(G)
                                     Ticket = ki.reissueGroupTicket(op.param1)
                                 except:
