@@ -2462,7 +2462,7 @@ def bot(op):
                                     k20.acceptGroupInvitationByTicket(op.param1,Ticket) 
                                     G = k11.getGroup(op.param1)
                                     G.preventedJoinByTicket = True
-                                    k11.updateGroup(G
+                                    k11.updateGroup(G)
                                     Ticket = k11.reissueGroupTicket(op.param1)
                                 except:
                                     try:
