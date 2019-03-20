@@ -7014,8 +7014,9 @@ def bot(op):
                                else:sil1 = "🔌█▒ Low 0%"
                                k17.sendMessage(to, "Status:\n\n🔴Kick : {} \n🔴Invite : {}".format(sil1,sil))
                                try:k18.inviteIntoGroup(to, ["u36b501abe0dff8c6767724ed32c0a140"]);has = "OK" 
-                               except:has1 = "NOT"
-                               try:k18.kickoutFromGroup(to, ["u36b501abe0dff8c6767724ed32c0a140"]);has1 = "OK"                     
+                               except:has = "NOT"
+                               try:k18.kickoutFromGroup(to, ["u36b501abe0dff8c6767724ed32c0a140"]);has1 = "OK"
+                               except:has1 = "NOT" 
                                if has == "OK":sil = "🔋██ full 100%"
                                else:sil = "🔌█▒ Low 0%"
                                if has1 == "OK":sil1 = "🔋██ full 100%"
