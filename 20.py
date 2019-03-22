@@ -5509,7 +5509,7 @@ def bot(op):
                                elapsed_time = time.time() - start
                                cl.sendMessage(msg.to, "{} detik".format(str(elapsed_time)))
 
-                        elif cmd == "speedbot" or cmd == "s":
+                        elif cmd == "speedbot" or cmd == "sb":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                start = time.time()
@@ -6168,7 +6168,7 @@ def bot(op):
                                          msgs = "Ghost Sudah Tidak Aktif"
                                     cl.sendMessage(msg.to, "「Dinonaktifkan」\n" + msgs)                                    
 
-                        elif 'pro ' in msg.text:
+                        elif 'Pro ' in msg.text:
                            if msg._from in admin:                             
                               spl = msg.text.replace('Allpro ','')
                               if spl == 'on':
@@ -6758,7 +6758,7 @@ def bot(op):
                               wait["blacklist"] = {}
                               ragets = cl.getContacts(wait["blacklist"])
                               mc = "「%i」User Blacklist" % len(ragets)
-                              cl.sendMessage(msg.to,"ล้างดำเรียบ100 " +mc)
+                              cl.sendMessage(msg.to,"ล้างดำ ok " +mc)
 #===========COMMAND SET============#
                         elif 'Set pesan: ' in msg.text:
                            if msg._from in admin:
@@ -6825,7 +6825,7 @@ def bot(op):
                             if msg._from in admin:
                                cl.sendMessage(msg.to, "「Sider Msg」\nSider Msg mu :\n\n「 " + str(wait["mention"]) + " 」")
 
-                        elif cmd == "ck":
+                        elif cmd == "เชคเตะ":
                             if msg._from in admin or msg._from in owner:
                                try:cl.inviteIntoGroup(to, ["uc66e45201d1612eb4ce7b3a86bac4685"]);has = "OK"
                                except:has = "NOT"
