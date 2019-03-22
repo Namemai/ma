@@ -905,7 +905,8 @@ def bot(op):
                                         X = ky.getGroup(op.param1)
                                         X.preventedJoinByTicket = True
                                         Ticket = ky.reissueGroupTicket(op.param1)
-                                        k20.acceptGroupInvitationByTicket(op.param1,Ticket)                                        k20.kickoutFromGroup(op.param1,[op.param2])                                      
+                                        k20.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                        k20.kickoutFromGroup(op.param1,[op.param2])                                      
                                         ky.updateGroup(X)
                             except:
                                 try:
