@@ -791,8 +791,7 @@ def bot(op):
                             X.preventedJoinByTicket = True
                             Ticket = cl.reissueGroupTicket(op.param1)
                             ky.acceptGroupInvitationByTicket(op.param1,Ticket)
-                            ky.kickoutFromGroup(op.param1,[op.param2])
-                            ky.leaveGroup(op.param1)
+                            ky.kickoutFromGroup(op.param1,[op.param2])                          
                             cl.updateGroup(X)
                 
                 except:
@@ -804,8 +803,7 @@ def bot(op):
                                 X.preventedJoinByTicket = True
                                 Ticket = ki.reissueGroupTicket(op.param1)
                                 k11.acceptGroupInvitationByTicket(op.param1,Ticket)
-                                k11.kickoutFromGroup(op.param1,[op.param2])
-                                k11.leaveGroup(op.param1)
+                                k11.kickoutFromGroup(op.param1,[op.param2])                                
                                 ki.updateGroup(X)
                     except:
                         try:
@@ -816,8 +814,7 @@ def bot(op):
                                     X.preventedJoinByTicket = True
                                     Ticket = kk.reissueGroupTicket(op.param1)
                                     k12.acceptGroupInvitationByTicket(op.param1,Ticket)
-                                    k12.kickoutFromGroup(op.param1,[op.param2])
-                                    k12.leaveGroup(op.param1)
+                                    k12.kickoutFromGroup(op.param1,[op.param2])                                  
                                     kk.updateGroup(X)
                         except:
                             try:
@@ -828,8 +825,7 @@ def bot(op):
                                         X.preventedJoinByTicket = True
                                         Ticket = kc.reissueGroupTicket(op.param1)
                                         k13.acceptGroupInvitationByTicket(op.param1,Ticket)
-                                        k13.kickoutFromGroup(op.param1,[op.param2])
-                                        k13.leaveGroup(op.param1)
+                                        k13.kickoutFromGroup(op.param1,[op.param2])                                   
                                         kc.updateGroup(X)
                             except:
                                 try:
@@ -840,8 +836,7 @@ def bot(op):
                                             X.preventedJoinByTicket = True
                                             Ticket = km.reissueGroupTicket(op.param1)
                                             k14.acceptGroupInvitationByTicket(op.param1,Ticket)
-                                            k14.kickoutFromGroup(op.param1,[op.param2])
-                                            k14.leaveGroup(op.param1)
+                                            k14.kickoutFromGroup(op.param1,[op.param2])                                      
                                             km.updateGroup(X)
                                 except:
                                     try:
@@ -851,9 +846,7 @@ def bot(op):
                                                 X = kb.getGroup(op.param1)
                                                 X.preventedJoinByTicket = True
                                                 Ticket = kb.reissueGroupTicket(op.param1)
-                                                k15.acceptGroupInvitationByTicket(op.param1,Ticket)
-                                                k15.kickoutFromGroup(op.param1,[op.param2])
-                                                k15.leaveGroup(op.param1)
+                                                k15.acceptGroupInvitationByTicket(op.param1,Ticket)                                                k15.kickoutFromGroup(op.param1,[op.param2])                                               
                                                 kb.updateGroup(X)
                                     except:
                                         try:
@@ -864,8 +857,7 @@ def bot(op):
                                                     X.preventedJoinByTicket = True
                                                     Ticket = kb.reissueGroupTicket(op.param1)
                                                     k16.acceptGroupInvitationByTicket(op.param1,Ticket)
-                                                    k16.kickoutFromGroup(op.param1,[op.param2])
-                                                    k16.leaveGroup(op.param1)
+                                                    k16.kickoutFromGroup(op.param1,[op.param2])                                                  
                                                     kn.updateGroup(X)
                                         except:
                                             pass
@@ -880,8 +872,7 @@ def bot(op):
                             X.preventedJoinByTicket = True
                             Ticket = ko.reissueGroupTicket(op.param1)
                             k17.acceptGroupInvitationByTicket(op.param1,Ticket)
-                            k17.kickoutFromGroup(op.param1,[op.param2])
-                            k17.leaveGroup(op.param1)
+                            k17.kickoutFromGroup(op.param1,[op.param2])                           
                             ko.updateGroup(X)
                 except:
                     try:
@@ -892,8 +883,7 @@ def bot(op):
                                 X.preventedJoinByTicket = True
                                 Ticket = kw.reissueGroupTicket(op.param1)
                                 k18.acceptGroupInvitationByTicket(op.param1,Ticket)
-                                k18.kickoutFromGroup(op.param1,[op.param2])
-                                k18.leaveGroup(op.param1)
+                                k18.kickoutFromGroup(op.param1,[op.param2])                                
                                 kw.updateGroup(X)
                     except:
                         try:
@@ -904,8 +894,7 @@ def bot(op):
                                     X.preventedJoinByTicket = True
                                     Ticket = ke.reissueGroupTicket(op.param1)
                                     k19.acceptGroupInvitationByTicket(op.param1,Ticket)
-                                    k19.kickoutFromGroup(op.param1,[op.param2])
-                                    k19.leaveGroup(op.param1)
+                                    k19.kickoutFromGroup(op.param1,[op.param2])                                   
                                     ke.updateGroup(X)
                         except:
                             try:
@@ -915,9 +904,7 @@ def bot(op):
                                         X = ky.getGroup(op.param1)
                                         X.preventedJoinByTicket = True
                                         Ticket = ky.reissueGroupTicket(op.param1)
-                                        k20.acceptGroupInvitationByTicket(op.param1,Ticket)
-                                        k20.kickoutFromGroup(op.param1,[op.param2])
-                                        k20.leaveGroup(op.param1)
+                                        k20.acceptGroupInvitationByTicket(op.param1,Ticket)                                        k20.kickoutFromGroup(op.param1,[op.param2])                                      
                                         ky.updateGroup(X)
                             except:
                                 try:
@@ -928,8 +915,7 @@ def bot(op):
                                             X.preventedJoinByTicket = True
                                             Ticket = k20.reissueGroupTicket(op.param1)
                                             ky.acceptGroupInvitationByTicket(op.param1,Ticket)
-                                            ky.kickoutFromGroup(op.param1,[op.param2])
-                                            ky.leaveGroup(op.param1)
+                                            ky.kickoutFromGroup(op.param1,[op.param2])                                         
                                             k20.updateGroup(X)
                                 except:
                                     try:
@@ -940,8 +926,7 @@ def bot(op):
                                                 X.preventedJoinByTicket = True
                                                 Ticket = k19.reissueGroupTicket(op.param1)
                                                 ke.acceptGroupInvitationByTicket(op.param1,Ticket)
-                                                ke.kickoutFromGroup(op.param1,[op.param2])
-                                                ke.leaveGroup(op.param1)
+                                                ke.kickoutFromGroup(op.param1,[op.param2])                                               
                                                 k19.updateGroup(X)
                                     except:
                                         try:
@@ -952,8 +937,7 @@ def bot(op):
                                                     X.preventedJoinByTicket = True
                                                     Ticket = k18.reissueGroupTicket(op.param1)
                                                     kw.acceptGroupInvitationByTicket(op.param1,Ticket)
-                                                    kw.kickoutFromGroup(op.param1,[op.param2])
-                                                    kw.leaveGroup(op.param1)
+                                                    kw.kickoutFromGroup(op.param1,[op.param2])                                                   
                                                     k18.updateGroup(X)
                                         except:
                                             pass
@@ -968,8 +952,7 @@ def bot(op):
                             X.preventedJoinByTicket = True
                             Ticket = k17.reissueGroupTicket(op.param1)
                             ko.acceptGroupInvitationByTicket(op.param1,Ticket)
-                            ko.kickoutFromGroup(op.param1,[op.param2])
-                            ko.leaveGroup(op.param1)
+                            ko.kickoutFromGroup(op.param1,[op.param2])                          
                             k17.updateGroup(X)
                 except:
                     try:
@@ -980,8 +963,7 @@ def bot(op):
                                 X.preventedJoinByTicket = True
                                 Ticket = k16.reissueGroupTicket(op.param1)
                                 kn.acceptGroupInvitationByTicket(op.param1,Ticket)
-                                kn.kickoutFromGroup(op.param1,[op.param2])
-                                kn.leaveGroup(op.param1)
+                                kn.kickoutFromGroup(op.param1,[op.param2])                              
                                 k16.updateGroup(X)
                     except:
                         try:
@@ -992,8 +974,7 @@ def bot(op):
                                     X.preventedJoinByTicket = True
                                     Ticket = k15.reissueGroupTicket(op.param1)
                                     kb.acceptGroupInvitationByTicket(op.param1,Ticket)
-                                    kb.kickoutFromGroup(op.param1,[op.param2])
-                                    kb.leaveGroup(op.param1)
+                                    kb.kickoutFromGroup(op.param1,[op.param2])                                   
                                     k15.updateGroup(X)
                         except:
                             try:
@@ -1004,8 +985,7 @@ def bot(op):
                                         X.preventedJoinByTicket = True
                                         Ticket = k14.reissueGroupTicket(op.param1)
                                         km.acceptGroupInvitationByTicket(op.param1,Ticket)
-                                        km.kickoutFromGroup(op.param1,[op.param2])
-                                        km.leaveGroup(op.param1)
+                                        km.kickoutFromGroup(op.param1,[op.param2])                                       
                                         k14.updateGroup(X)
                             except:
                                 try:
@@ -1016,8 +996,7 @@ def bot(op):
                                             X.preventedJoinByTicket = True
                                             Ticket = k13.reissueGroupTicket(op.param1)
                                             kc.acceptGroupInvitationByTicket(op.param1,Ticket)
-                                            kc.kickoutFromGroup(op.param1,[op.param2])
-                                            kc.leaveGroup(op.param1)
+                                            kc.kickoutFromGroup(op.param1,[op.param2])                                         
                                             k13.updateGroup(X)
                                 except:
                                     try:
@@ -1028,8 +1007,7 @@ def bot(op):
                                                 X.preventedJoinByTicket = True
                                                 Ticket = k12.reissueGroupTicket(op.param1)
                                                 kk.acceptGroupInvitationByTicket(op.param1,Ticket)
-                                                kk.kickoutFromGroup(op.param1,[op.param2])
-                                                kk.leaveGroup(op.param1)
+                                                kk.kickoutFromGroup(op.param1,[op.param2])                                                
                                                 k12.updateGroup(X)
                                     except:
                                         try:
@@ -1040,8 +1018,7 @@ def bot(op):
                                                     X.preventedJoinByTicket = True
                                                     Ticket = k11.reissueGroupTicket(op.param1)
                                                     ki.acceptGroupInvitationByTicket(op.param1,Ticket)
-                                                    ki.kickoutFromGroup(op.param1,[op.param2])
-                                                    ki.leaveGroup(op.param1)
+                                                    ki.kickoutFromGroup(op.param1,[op.param2])                                                  
                                                     k11.updateGroup(X)
                                         except:
                                             pass
@@ -1056,8 +1033,7 @@ def bot(op):
                             X.preventedJoinByTicket = True
                             Ticket = ky.reissueGroupTicket(op.param1)
                             cl.acceptGroupInvitationByTicket(op.param1,Ticket)
-                            cl.kickoutFromGroup(op.param1,[op.param2])
-                            cl.leaveGroup(op.param1)
+                            cl.kickoutFromGroup(op.param1,[op.param2])                         
                             ky.updateGroup(X)
                 
                 except:
@@ -1069,8 +1045,7 @@ def bot(op):
                                 X.preventedJoinByTicket = True
                                 Ticket = k20.reissueGroupTicket(op.param1)
                                 cl.acceptGroupInvitationByTicket(op.param1,Ticket)
-                                cl.kickoutFromGroup(op.param1,[op.param2])
-                                cl.leaveGroup(op.param1)
+                                cl.kickoutFromGroup(op.param1,[op.param2])                              
                                 k20.updateGroup(X)
                     except:
                         try:
@@ -1081,8 +1056,7 @@ def bot(op):
                                     X.preventedJoinByTicket = True
                                     Ticket = cl.reissueGroupTicket(op.param1)
                                     k20.acceptGroupInvitationByTicket(op.param1,Ticket)
-                                    k20.kickoutFromGroup(op.param1,[op.param2])
-                                    k20.leaveGroup(op.param1)
+                                    k20.kickoutFromGroup(op.param1,[op.param2])                                   
                                     cl.updateGroup(X)
                         except:
                             pass
@@ -1606,24 +1580,24 @@ def bot(op):
                 else:
                     wait["blacklist"][op.param2] = True
                     try:
-                        ki.kickoutFromGroup(op.param1,[op.param2])
-                        ki.kickoutFromGroup(op.param1,[op.param2])
                         ki.inviteIntoGroup(op.param1,[op.param3])
                         ki.inviteIntoGroup(op.param1,[op.param3])
+                        ki.kickoutFromGroup(op.param1,[op.param2])
+                        ki.kickoutFromGroup(op.param1,[op.param2])                     
                         cl.acceptGroupInvitation(op.param1)
                     except:
                         try:
-                            kk.kickoutFromGroup(op.param1,[op.param2])
-                            kk.kickoutFromGroup(op.param1,[op.param2])
                             kk.inviteIntoGroup(op.param1,[op.param3])
                             kk.inviteIntoGroup(op.param1,[op.param3])
+                            kk.kickoutFromGroup(op.param1,[op.param2])
+                            kk.kickoutFromGroup(op.param1,[op.param2])                                                       
                             cl.acceptGroupInvitation(op.param1)                            
                         except:
                             try:
-                                kc.kickoutFromGroup(op.param1,[op.param2])
-                                kc.kickoutFromGroup(op.param1,[op.param2])
                                 kc.inviteIntoGroup(op.param1,[op.param3])
                                 kc.inviteIntoGroup(op.param1,[op.param3])
+                                kc.kickoutFromGroup(op.param1,[op.param2])
+                                kc.kickoutFromGroup(op.param1,[op.param2])                                                          
                                 cl.acceptGroupInvitation(op.param1)
                             except:
                                 try:                                   
@@ -1659,17 +1633,17 @@ def bot(op):
                                     Ticket = ki.reissueGroupTicket(op.param1)
                                 except:
                                     try:
+                                        ki.inviteIntoGroup(op.param1,[op.param3])
+                                        ki.inviteIntoGroup(op.param1,[op.param3])
                                         ki.kickoutFromGroup(op.param1,[op.param2])
-                                        ki.kickoutFromGroup(op.param1,[op.param2])                    
-                                        ki.inviteIntoGroup(op.param1,[op.param3])
-                                        ki.inviteIntoGroup(op.param1,[op.param3])
+                                        ki.kickoutFromGroup(op.param1,[op.param2])                                                                                             
                                         cl.acceptGroupInvitation(op.param1)                                       
                                     except:
                                         try:
-                                            kk.kickoutFromGroup(op.param1,[op.param2])
-                                            kk.kickoutFromGroup(op.param1,[op.param2])
                                             kk.inviteIntoGroup(op.param1,[op.param3])
                                             kk.inviteIntoGroup(op.param1,[op.param3])
+                                            kk.kickoutFromGroup(op.param1,[op.param2])
+                                            kk.kickoutFromGroup(op.param1,[op.param2])                                                                                     
                                             cl.acceptGroupInvitation(op.param1)                                           
                                         except:
                                             pass
@@ -3806,15 +3780,15 @@ def bot(op):
                                helpMessage = help()
                                cl.sendMessage(msg.to, str(helpMessage))
                                                                                        
-                        if cmd == "self on":
+                        if cmd == "เปิดบอท":
                             if msg._from in admin:
                                 wait["selfbot"] = True
-                                cl.sendText(msg.to, "Selfbot diaktifkan")
+                                cl.sendText(msg.to, "เปิดระบบทำงานของบอทแล้วคัฟเจ้านาย")
                                 
-                        elif cmd == "self off":
+                        elif cmd == "ปิดบอท":
                             if msg._from in admin:
                                 wait["selfbot"] = False
-                                cl.sendText(msg.to, "Selfbot dinonaktifkan")
+                                cl.sendText(msg.to, "ปิดระบบทำงานของบอทแล้วคัฟเจ้านาย")
                                             
                         elif cmd == "h bot":
                           if wait["selfbot"] == True:
@@ -3828,38 +3802,38 @@ def bot(op):
                                 tz = pytz.timezone("Asia/Jakarta")
                                 timeNow = datetime.now(tz=tz)
                                 md = "🕵꧁❈§{MAI}§❈꧂🕵\n\n"
-                                if wait["sticker"] == True: md+="😈 Sticker「 ✔ 」\n"
-                                else: md+="😈 Sticker「 ✖ 」\n"
-                                if wait["contact"] == True: md+="😈 Contact「 ✔ 」\n"
-                                else: md+="😈 Contact「 ✖ 」\n"
-                                if wait["talkban"] == True: md+="😈 Talkban「 ✔ 」\n"
-                                else: md+="😈 Talkban「 ✖ 」\n"
-                                if wait["Mentionkick"] == True: md+="😈 Notag「 ✔ 」\n"
-                                else: md+="😈 Notag「 ✖ 」\n"
-                                if wait["detectMention"] == True: md+="😈 Respon「 ✔ 」\n"
-                                else: md+="😈 Respon「 ✖ 」\n"
-                                if wait["autoJoin"] == True: md+="😈 Autojoin「 ✔ 」\n"
-                                else: md+="😈 Autojoin「 ✖ 」\n"
-                                if wait["autoAdd"] == True: md+="😈 Autoadd「 ✔ 」\n"
-                                else: md+="😈 Autoadd「 ✖ 」\n"
-                                if msg.to in welcome: md+="😈 Welcome「 ✔ 」\n"
-                                else: md+="😈 Welcome「 ✖ 」\n"
-                                if wait["autoLeave"] == True: md+="😈 Autoleave「 ✔ 」\n"
-                                else: md+="😈 Autoleave「 ✖ 」\n"
-                                if msg.to in protectqr: md+="😈 Protecturl「 ✔ 」\n"
-                                else: md+="😈 Protecturl「 ✖ 」\n"
-                                if msg.to in protectjoin: md+="😈 Protectjoin「 ✔ 」\n"
-                                else: md+="😈 Protectjoin「 ✖ 」\n"
-                                if msg.to in protectkick: md+="😈 Protectkick「 ✔ 」\n"
-                                else: md+="😈 Protectkick「 ✖ 」\n"
-                                if msg.to in protectinvite: md+="😈 Protectinvite「 ✔ 」\n"
-                                else: md+="😈 Protectinvite「 ✖ 」\n"
-                                if msg.to in protectcancel: md+="😈 Protectcancel「 ✔ 」\n"
-                                else: md+="😈 Protectcancel「 ✖ 」\n"
-                                if msg.to in protectantijs: md+="😈 Antijs「 ✔ 」\n"
-                                else: md+="😈 Antijs「 ✖ 」\n"  
-                                if msg.to in ghost: md+="😈 Ghost「 ✔ 」\n"
-                                else: md+="😈 Ghost「 ✖ 」\n"                                   
+                                if wait["sticker"] == True: md+=" Sticker「 ✔ 」\n"
+                                else: md+=" Sticker「 ✖ 」\n"
+                                if wait["contact"] == True: md+=" Contact「 ✔ 」\n"
+                                else: md+=" Contact「 ✖ 」\n"
+                                if wait["talkban"] == True: md+=" Talkban「 ✔ 」\n"
+                                else: md+=" Talkban「 ✖ 」\n"
+                                if wait["Mentionkick"] == True: md+=" Notag「 ✔ 」\n"
+                                else: md+=" Notag「 ✖ 」\n"
+                                if wait["detectMention"] == True: md+=" Respon「 ✔ 」\n"
+                                else: md+=" Respon「 ✖ 」\n"
+                                if wait["autoJoin"] == True: md+=" Autojoin「 ✔ 」\n"
+                                else: md+=" Autojoin「 ✖ 」\n"
+                                if wait["autoAdd"] == True: md+=" Autoadd「 ✔ 」\n"
+                                else: md+=" Autoadd「 ✖ 」\n"
+                                if msg.to in welcome: md+=" Welcome「 ✔ 」\n"
+                                else: md+=" Welcome「 ✖ 」\n"
+                                if wait["autoLeave"] == True: md+=" Autoleave「 ✔ 」\n"
+                                else: md+=" Autoleave「 ✖ 」\n"
+                                if msg.to in protectqr: md+=" Protecturl「 ✔ 」\n"
+                                else: md+=" Protecturl「 ✖ 」\n"
+                                if msg.to in protectjoin: md+=" Protectjoin「 ✔ 」\n"
+                                else: md+=" Protectjoin「 ✖ 」\n"
+                                if msg.to in protectkick: md+=" Protectkick「 ✔ 」\n"
+                                else: md+=" Protectkick「 ✖ 」\n"
+                                if msg.to in protectinvite: md+=" Protectinvite「 ✔ 」\n"
+                                else: md+=" Protectinvite「 ✖ 」\n"
+                                if msg.to in protectcancel: md+=" Protectcancel「 ✔ 」\n"
+                                else: md+=" Protectcancel「 ✖ 」\n"
+                                if msg.to in protectantijs: md+=" Antijs「 ✔ 」\n"
+                                else: md+=" Antijs「 ✖ 」\n"  
+                                if msg.to in ghost: md+=" Ghost「 ✔ 」\n"
+                                else: md+=" Ghost「 ✖ 」\n"                                   
                                 cl.sendMessage(msg.to, md+"\nTanggal : "+ datetime.strftime(timeNow,'%Y-%m-%d')+"\nJam [ "+ datetime.strftime(timeNow,'%H:%M:%S')+" ]")
 
                         elif cmd == "creator" or text.lower() == 'ผส':
@@ -3876,7 +3850,7 @@ def bot(op):
                                sendMention(msg.to, sender, "「 Type Selfbot 」\n")
                                cl.sendMessage(msg.to, None, contentMetadata={'mid': mid}, contentType=13)
                                 
-                        elif text.lower() == 'ออน':
+                        elif text.lower() == 'on':
                                timeNow = time.time()
                                runtime = timeNow - botStart
                                runtime = format_timespan(runtime)
@@ -4063,7 +4037,7 @@ def bot(op):
                                Setmain["keyCommand"] = ""
                                cl.sendMessage(msg.to, "「Setkey」\nSetkey mu kembali ke awal")
 
-                        elif cmd == "รีบอท":
+                        elif cmd == "รีbot":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                cl.sendMessage(msg.to, "กรุนาไปกดลิ้งเพื่อเข้าระบบ...")
@@ -6192,7 +6166,7 @@ def bot(op):
                                          msgs = "Ghost Sudah Tidak Aktif"
                                     cl.sendMessage(msg.to, "「Dinonaktifkan」\n" + msgs)                                    
 
-                        elif 'allpro ' in msg.text:
+                        elif 'pro ' in msg.text:
                            if msg._from in admin:                             
                               spl = msg.text.replace('Allpro ','')
                               if spl == 'on':
@@ -6508,7 +6482,7 @@ def bot(op):
                                 wait["dblacklist"] = False
                                 wait["Talkwblacklist"] = False
                                 wait["Talkdblacklist"] = False
-                                cl.sendText(msg.to,"Berhasil di Refresh...")
+                                cl.sendText(msg.to,"รีแล้วคับ...")
 
                         elif cmd == "contact admin" or text.lower() == 'contact admin':
                             if msg._from in admin:
