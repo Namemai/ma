@@ -1933,13 +1933,13 @@ def bot(op):
                                     kb.updateGroup(G)
                                     Ticket = kb.reissueGroupTicket(op.param1)
                                 except:
-                                    tr
+                                    try:
                                         kb.kickoutFromGroup(op.param1,[op.param2])
                                         kb.inviteIntoGroup(op.param1,[op.param3])
                                         kb.inviteIntoGroup(op.param1,[op.param3])
                                         km.acceptGroupInvitation(op.param1)                                        
                                     except:
-                                        tr
+                                        try:
                                             kn.kickoutFromGroup(op.param1,[op.param2])
                                             kn.inviteIntoGroup(op.param1,[op.param3])
                                             kn.inviteIntoGroup(op.param1,[op.param3])
