@@ -10,67 +10,67 @@ from bs4 import BeautifulSoup
 from googletrans import Translator
 import youtube_dl
 #=============
-cl = LineClient("EDiASmEQnNTkladJ1MZ5.XM5fib0weUTm57oOA6XgHq.69rM0v/pBp+ugzVrAyiJkFm2xG/DcIrOwmPEODhpsAg")
+cl = Line("EDiASmEQnNTkladJ1MZ5.XM5fib0weUTm57oOA6XgHq.69rM0v/pBp+ugzVrAyiJkFm2xG/DcIrOwmPEODhpsAg")
 cl.log("Auth Token : " + str(cl.authToken))
 
-ki = LineClient("EDhjeRcM120AwpWqqul4.+0VwFLVgQ2j2cX+3JyNF5a.9VKM7a7Q2e9RO4qmcalJjQtCYRNNnZiwG61izrNOn5w")
+ki = Line("EDhjeRcM120AwpWqqul4.+0VwFLVgQ2j2cX+3JyNF5a.9VKM7a7Q2e9RO4qmcalJjQtCYRNNnZiwG61izrNOn5w")
 ki.log("Auth Token : " + str(ki.authToken))
 
-kk = LineClient("EDuhWu7c1NCfdlwFOKB6.xBAEeq5CEKAfHgmSzhk7zG.cbPwmFJbNojFPbMsJ2wPAJb5EbHzeSYhmPgIP+o0VOo")
+kk = Line("EDuhWu7c1NCfdlwFOKB6.xBAEeq5CEKAfHgmSzhk7zG.cbPwmFJbNojFPbMsJ2wPAJb5EbHzeSYhmPgIP+o0VOo")
 kk.log("Auth Token : " + str(kk.authToken))
 
-kc = LineClient("EDBtbzvA6Xb3DgpGS4Na.F/033Vty47ZVwBhORXhAoG.zi2K2fsFgkBLTEb6VSyvC8Gm6jOAoG4baVXZrsfJ2f0")
+kc = Line("EDBtbzvA6Xb3DgpGS4Na.F/033Vty47ZVwBhORXhAoG.zi2K2fsFgkBLTEb6VSyvC8Gm6jOAoG4baVXZrsfJ2f0")
 kc.log("Auth Token : " + str(kc.authToken))
 
-km = LineClient("EDo4wKQpCms7br7gwJu2.iFiwAtxjMF5fdoxQwQqMuG.8p8Zg27Oe2Rr2cGlPaGqBKkIH/El5B33vVCcwx5j15w")
+km = Line("EDo4wKQpCms7br7gwJu2.iFiwAtxjMF5fdoxQwQqMuG.8p8Zg27Oe2Rr2cGlPaGqBKkIH/El5B33vVCcwx5j15w")
 km.log("Auth Token : " + str(km.authToken))
 
-kb = LineClient("EDRhO0VsXAwNVkpVx8j5.jZLwNsJF0dLY/sVeui1BLq.EIWDWE8x3e3US3l4N2GxmG1djHtkplgcXBKKipLWd60")
+kb = Line("EDRhO0VsXAwNVkpVx8j5.jZLwNsJF0dLY/sVeui1BLq.EIWDWE8x3e3US3l4N2GxmG1djHtkplgcXBKKipLWd60")
 kb.log("Auth Token : " + str(kb.authToken))
 
-kn = LineClient("ED0dEa3ReFvB3HzhwlS0.4joXktOiD5sMDqP3TEW5Ka.moAssNi6qB4ynEzMcVsEBykXez4MXcVeUWq2g6lf63A")
+kn = Line("ED0dEa3ReFvB3HzhwlS0.4joXktOiD5sMDqP3TEW5Ka.moAssNi6qB4ynEzMcVsEBykXez4MXcVeUWq2g6lf63A")
 kn.log("Auth Token : " + str(kn.authToken))
 
-ko = LineClient("EDk8mK1SNWfFvMmDOEya.z1BLPUXch76fSXC9ldkHAG./t3q7uipD54S+IjYPZomoSNXOGKvAsJtRBxZwaywIJQ")
+ko = Line("EDk8mK1SNWfFvMmDOEya.z1BLPUXch76fSXC9ldkHAG./t3q7uipD54S+IjYPZomoSNXOGKvAsJtRBxZwaywIJQ")
 ko.log("Auth Token : " + str(ko.authToken))
 
-kw = LineClient("EDSRsgGbQTO1zJo44dP6.P0DywLibVMEvA1w8+MyKzG.ZEgxXGtgWM0vKLE6NFije2mFFjyiNpJ8kMC9RwscJYY")
+kw = Line("EDSRsgGbQTO1zJo44dP6.P0DywLibVMEvA1w8+MyKzG.ZEgxXGtgWM0vKLE6NFije2mFFjyiNpJ8kMC9RwscJYY")
 kw.log("Auth Token : " + str(kw.authToken))
 
-ke = LineClient("EDVw2pACOl72hHeMEvfb.jsVVBl6s1wGGAmAWEJzz2W.dInFa4SlSbb1LReWAbqgLeVqkf9v4I57Cng5tz/iHvQ")
+ke = Line("EDVw2pACOl72hHeMEvfb.jsVVBl6s1wGGAmAWEJzz2W.dInFa4SlSbb1LReWAbqgLeVqkf9v4I57Cng5tz/iHvQ")
 ke.log("Auth Token : " + str(ke.authToken))
 
-ky = LineClient("EDmZiXCiVV1cSegX6FJ2.LXYsXPKv919TqN1yc47NOG.CtHUlsBBgdQ6Cfr3f9PIk2gvEFy1yn+2jiz1f1Lr5L0")
+ky = Line("EDmZiXCiVV1cSegX6FJ2.LXYsXPKv919TqN1yc47NOG.CtHUlsBBgdQ6Cfr3f9PIk2gvEFy1yn+2jiz1f1Lr5L0")
 ky.log("Auth Token : " + str(ky.authToken))
 
-k11 = LineClient("EDMI0aMhlyfwUi8kKJF8.r4o5B2rVFUt3ErkQ8VWwYa.hO317CwxNho7at8Z7RwaY4myG2FZ88Ps5fqbOV4e/D8")
+k11 = Line("EDMI0aMhlyfwUi8kKJF8.r4o5B2rVFUt3ErkQ8VWwYa.hO317CwxNho7at8Z7RwaY4myG2FZ88Ps5fqbOV4e/D8")
 k11.log("Auth Token : " + str(k11.authToken))
 
-k12 = LineClient("EDtMCBqgwzGAIx7vSzz7.MNDJ+FLNS0xznCFGA2mQ1W.0kJp7qxkBBtiAkIiJz0AXTMOcss24VJPYL6VRLEdnbg")
+k12 = Line("EDtMCBqgwzGAIx7vSzz7.MNDJ+FLNS0xznCFGA2mQ1W.0kJp7qxkBBtiAkIiJz0AXTMOcss24VJPYL6VRLEdnbg")
 k12.log("Auth Token : " + str(k12.authToken))
 
-k13 = LineClient("ED6erwwDBiMtPV1dQKWa.jTu0+5v1OGKIsdsVwe3CwG.EhWI5dqcP/01RxPSpGKN9jcDjWNHrAmD9alT5Iv9X4M")
+k13 = Line("ED6erwwDBiMtPV1dQKWa.jTu0+5v1OGKIsdsVwe3CwG.EhWI5dqcP/01RxPSpGKN9jcDjWNHrAmD9alT5Iv9X4M")
 k13.log("Auth Token : " + str(k13.authToken))
 
-k14 = LineClient("EDC81pm8ZVnYNI4ieWJ1.ybfPO53UOaxlbu9T86g/aq.szkTPMaXNy2eyh9XmfAKnlf3T6mVdLUbL6ddEb9KngE")
+k14 = Line("EDC81pm8ZVnYNI4ieWJ1.ybfPO53UOaxlbu9T86g/aq.szkTPMaXNy2eyh9XmfAKnlf3T6mVdLUbL6ddEb9KngE")
 k14.log("Auth Token : " + str(k14.authToken))
 
-k15 = LineClient("EDJDsB4DPK1jllD7eTte.yioy5rpJhrcNspExBaBkBG.CQSQV/N0iaYFuxaUZIQyBTYjy0yGjItoaIFWNvr8O/U")
+k15 = Line("EDJDsB4DPK1jllD7eTte.yioy5rpJhrcNspExBaBkBG.CQSQV/N0iaYFuxaUZIQyBTYjy0yGjItoaIFWNvr8O/U")
 k15.log("Auth Token : " + str(k15.authToken))
 
-k16 = LineClient("EDXCyZxNZL5dSaKmgoRe.dlzxCJT2xGku6Q7GI/qxRG.oO4ADCDnCryTOmfS+EWUDk0GdUrHmQqjkGArxVwrt1k")
+k16 = Line("EDXCyZxNZL5dSaKmgoRe.dlzxCJT2xGku6Q7GI/qxRG.oO4ADCDnCryTOmfS+EWUDk0GdUrHmQqjkGArxVwrt1k")
 k16.log("Auth Token : " + str(k16.authToken))
 
-k17 = LineClient("EDBxfhRdoAGvLVlnlpLb.2HvXKhgK4WOo07h84VAvQW.IdeYc29hkLS+sKxTGpsmdVKyG46xrCQG0gL4wFZ3CPw")
+k17 = Line("EDBxfhRdoAGvLVlnlpLb.2HvXKhgK4WOo07h84VAvQW.IdeYc29hkLS+sKxTGpsmdVKyG46xrCQG0gL4wFZ3CPw")
 k17.log("Auth Token : " + str(k17.authToken))
 
-k18 = LineClient("EDm5ztAlnxmzgywWupr0.nRubQ/dF/mz2DYtTmScHqa.ZGDleH5r/T4aN4NouGm1445Ef4TRjg0lbqRGZthXh3Q")
+k18 = Line("EDm5ztAlnxmzgywWupr0.nRubQ/dF/mz2DYtTmScHqa.ZGDleH5r/T4aN4NouGm1445Ef4TRjg0lbqRGZthXh3Q")
 k18.log("Auth Token : " + str(k18.authToken))
 
-k19 = LineClient("EDqPXFHgsKgBeemHHki3.D9d0eQxt2pDBR4APfWP7GW.7LkjNm5hzvOshXLwbBoeGtzyL8L3jGgmEg5WA0K+pQs")
+k19 = Line("EDqPXFHgsKgBeemHHki3.D9d0eQxt2pDBR4APfWP7GW.7LkjNm5hzvOshXLwbBoeGtzyL8L3jGgmEg5WA0K+pQs")
 k19.log("Auth Token : " + str(k19.authToken))
 
-k20 = LineClient("EDcz8DIvb0YKgMq9e0z0.eODQiNIPSu0elgmTfE4eGa.5ORVNAVOi3/ZR6N3pZiZobdcetozV5Miyr7R1WFKAiA")
+k20 = Line("EDcz8DIvb0YKgMq9e0z0.eODQiNIPSu0elgmTfE4eGa.5ORVNAVOi3/ZR6N3pZiZobdcetozV5Miyr7R1WFKAiA")
 k20.log("Auth Token : " + str(k20.authToken))
 
 
@@ -81,7 +81,6 @@ call = cl
 creator = ["uc66e45201d1612eb4ce7b3a86bac4685"]
 owner = ["uc66e45201d1612eb4ce7b3a86bac4685"]
 admin = ["uc66e45201d1612eb4ce7b3a86bac4685"]
-staff = ["uc66e45201d1612eb4ce7b3a86bac4685"]
 mid = cl.getProfile().mid
 Amid = ki.getProfile().mid
 Bmid = kk.getProfile().mid
@@ -3756,7 +3755,7 @@ def bot(op):
                                k20.sendMessage(msg.to,"➲ 20 อยู่ครับเจ้านาย")
                                k20.sendMessage(msg.to,"➲  มาครบ 20 ตัวครับเจ้านาย")                            
                             
-                        elif cmd == "me" or text.lower() == 'me':
+                        elif cmd == "me" or text.lower() == 'มี':
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                msg.contentType = 13
