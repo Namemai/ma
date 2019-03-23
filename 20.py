@@ -1959,19 +1959,19 @@ def bot(op):
                     pass
                 else:
                     wait["blacklist"][op.param2] = True
-                    try
+                    try:
                         kn.kickoutFromGroup(op.param1,[op.param2])
                         kn.inviteIntoGroup(op.param1,[op.param3])
                         kn.inviteIntoGroup(op.param1,[op.param3])
                         kb.acceptGroupInvitation(op.param1)                      
                     except:
-                        try
+                        try:
                             ko.kickoutFromGroup(op.param1,[op.param2])
                             ko.inviteIntoGroup(op.param1,[op.param3])
                             ko.inviteIntoGroup(op.param1,[op.param3])
                             kb.acceptGroupInvitation(op.param1)                          
                         except:
-                            try
+                            try:
                                 kw.kickoutFromGroup(op.param1,[op.param2])
                                 kw.inviteIntoGroup(op.param1,[op.param3])
                                 kw.inviteIntoGroup(op.param1,[op.param3])
