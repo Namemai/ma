@@ -2504,7 +2504,7 @@ def bot(op):
                             k12.acceptGroupInvitation(op.param1)                            
                         except:
                             try:
-                                k14.kickoutFromGroup(op.param1,[op.param2                   
+                                k14.kickoutFromGroup(op.param1,[op.param2)                   
                                 k14.inviteIntoGroup(op.param1,[op.param3])
                                 k14.inviteIntoGroup(op.param1,[op.param3])                    
                                 k12.acceptGroupInvitation(op.param1)
