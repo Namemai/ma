@@ -12,192 +12,66 @@ import youtube_dl
 #=============
 cl = LineClient("EDiASmEQnNTkladJ1MZ5.XM5fib0weUTm57oOA6XgHq.69rM0v/pBp+ugzVrAyiJkFm2xG/DcIrOwmPEODhpsAg")
 cl.log("Auth Token : " + str(cl.authToken))
-channel = LineChannel(cl)
-cl.log("Channel Access Token : " + str(channel.channelAccessToken))
-lineProfile = cl.getProfile()
-lineSettings = cl.getSettings()
-mid = cl.getProfile().mid
-responsename = cl.getProfile().displayName
 
 ki = LineClient("EDhjeRcM120AwpWqqul4.+0VwFLVgQ2j2cX+3JyNF5a.9VKM7a7Q2e9RO4qmcalJjQtCYRNNnZiwG61izrNOn5w")
 ki.log("Auth Token : " + str(ki.authToken))
-channel1 = LineChannel(ki)
-ki.log("Channel Access Token : " + str(channel1.channelAccessToken))
-lineProfile = ki.getProfile()
-lineSettings = ki.getSettings()
-Amid = ki.getProfile().mid
-responsename1 = ki.getProfile().displayName
 
 kk = LineClient("EDuhWu7c1NCfdlwFOKB6.xBAEeq5CEKAfHgmSzhk7zG.cbPwmFJbNojFPbMsJ2wPAJb5EbHzeSYhmPgIP+o0VOo")
 kk.log("Auth Token : " + str(kk.authToken))
-channel2 = LineChannel(kk)
-kk.log("Channel Access Token : " + str(channel2.channelAccessToken))
-lineProfile = kk.getProfile()
-lineSettings = kk.getSettings()
-Bmid = kk.getProfile().mid
-responsename2 = kk.getProfile().displayName
 
 kc = LineClient("EDBtbzvA6Xb3DgpGS4Na.F/033Vty47ZVwBhORXhAoG.zi2K2fsFgkBLTEb6VSyvC8Gm6jOAoG4baVXZrsfJ2f0")
 kc.log("Auth Token : " + str(kc.authToken))
-channel3 = LineChannel(kc)
-kc.log("Channel Access Token : " + str(channel3.channelAccessToken))
-lineProfile = kc.getProfile()
-lineSettings = kc.getSettings()
-Cmid = kc.getProfile().mid
-responsename3 = kc.getProfile().displayName
 
 km = LineClient("EDo4wKQpCms7br7gwJu2.iFiwAtxjMF5fdoxQwQqMuG.8p8Zg27Oe2Rr2cGlPaGqBKkIH/El5B33vVCcwx5j15w")
 km.log("Auth Token : " + str(km.authToken))
-channel4 = LineChannel(km)
-km.log("Channel Access Token : " + str(channel4.channelAccessToken))
-lineProfile = km.getProfile()
-lineSettings = km.getSettings()
-Dmid = km.getProfile().mid
-responsename4 = km.getProfile().displayName
 
 kb = LineClient("EDRhO0VsXAwNVkpVx8j5.jZLwNsJF0dLY/sVeui1BLq.EIWDWE8x3e3US3l4N2GxmG1djHtkplgcXBKKipLWd60")
 kb.log("Auth Token : " + str(kb.authToken))
-channel5 = LineChannel(kb)
-kb.log("Channel Access Token : " + str(channel5.channelAccessToken))
-lineProfile = kb.getProfile()
-lineSettings = kb.getSettings()
-Emid = kb.getProfile().mid
-responsename5 = kb.getProfile().displayName
 
 kn = LineClient("ED0dEa3ReFvB3HzhwlS0.4joXktOiD5sMDqP3TEW5Ka.moAssNi6qB4ynEzMcVsEBykXez4MXcVeUWq2g6lf63A")
 kn.log("Auth Token : " + str(kn.authToken))
-channel6 = LineChannel(kn)
-kn.log("Channel Access Token : " + str(channel6.channelAccessToken))
-lineProfile = kn.getProfile()
-lineSettings = kn.getSettings()
-Fmid = kb.getProfile().mid
-responsename6 = kn.getProfile().displayName
 
 ko = LineClient("EDk8mK1SNWfFvMmDOEya.z1BLPUXch76fSXC9ldkHAG./t3q7uipD54S+IjYPZomoSNXOGKvAsJtRBxZwaywIJQ")
 ko.log("Auth Token : " + str(ko.authToken))
-channel7 = LineChannel(ko)
-ko.log("Channel Access Token : " + str(channel7.channelAccessToken))
-lineProfile = ko.getProfile()
-lineSettings = ko.getSettings()
-Gmid = ko.getProfile().mid
-responsename7 = kb.getProfile().displayName
 
 kw = LineClient("EDSRsgGbQTO1zJo44dP6.P0DywLibVMEvA1w8+MyKzG.ZEgxXGtgWM0vKLE6NFije2mFFjyiNpJ8kMC9RwscJYY")
 kw.log("Auth Token : " + str(kw.authToken))
-channel8 = LineChannel(kw)
-kw.log("Channel Access Token : " + str(channel8.channelAccessToken))
-lineProfile = kw.getProfile()
-lineSettings = kw.getSettings()
-Hmid = kw.getProfile().mid
-responsename8 = kw.getProfile().displayName
 
 ke = LineClient("EDVw2pACOl72hHeMEvfb.jsVVBl6s1wGGAmAWEJzz2W.dInFa4SlSbb1LReWAbqgLeVqkf9v4I57Cng5tz/iHvQ")
 ke.log("Auth Token : " + str(ke.authToken))
-channel9 = LineChannel(ke)
-ke.log("Channel Access Token : " + str(channel9.channelAccessToken))
-lineProfile = ke.getProfile()
-lineSettings = ke.getSettings()
-Imid = ke.getProfile().mid
-responsename9 = ke.getProfile().displayName
 
 ky = LineClient("EDmZiXCiVV1cSegX6FJ2.LXYsXPKv919TqN1yc47NOG.CtHUlsBBgdQ6Cfr3f9PIk2gvEFy1yn+2jiz1f1Lr5L0")
 ky.log("Auth Token : " + str(ky.authToken))
-channel10 = LineChannel(ky)
-ky.log("Channel Access Token : " + str(channel10.channelAccessToken))
-lineProfile = ky.getProfile()
-lineSettings = ky.getSettings()
-Jmid = ky.getProfile().mid
-responsename10 = ky.getProfile().displayName
 
 k11 = LineClient("EDMI0aMhlyfwUi8kKJF8.r4o5B2rVFUt3ErkQ8VWwYa.hO317CwxNho7at8Z7RwaY4myG2FZ88Ps5fqbOV4e/D8")
 k11.log("Auth Token : " + str(k11.authToken))
-channel11 = LineChannel(k11)
-k11.log("Channel Access Token : " + str(channel11.channelAccessToken))
-lineProfile = k11.getProfile()
-lineSettings = k11.getSettings()
-Amid1 = k11.getProfile().mid
-responsename11 = k11.getProfile().displayName
 
 k12 = LineClient("EDtMCBqgwzGAIx7vSzz7.MNDJ+FLNS0xznCFGA2mQ1W.0kJp7qxkBBtiAkIiJz0AXTMOcss24VJPYL6VRLEdnbg")
 k12.log("Auth Token : " + str(k12.authToken))
-channel22 = LineChannel(k12)
-k12.log("Channel Access Token : " + str(channel22.channelAccessToken))
-lineProfile = k12.getProfile()
-lineSettings = k12.getSettings()
-Bmid2 = k12.getProfile().mid
-responsename22 = k12.getProfile().displayName
 
 k13 = LineClient("ED6erwwDBiMtPV1dQKWa.jTu0+5v1OGKIsdsVwe3CwG.EhWI5dqcP/01RxPSpGKN9jcDjWNHrAmD9alT5Iv9X4M")
 k13.log("Auth Token : " + str(k13.authToken))
-channel33 = LineChannel(k13)
-k13.log("Channel Access Token : " + str(channel33.channelAccessToken))
-lineProfile = k13.getProfile()
-lineSettings = k13.getSettings()
-Cmid3 = k13.getProfile().mid
-responsename33 = k13.getProfile().displayName
 
 k14 = LineClient("EDC81pm8ZVnYNI4ieWJ1.ybfPO53UOaxlbu9T86g/aq.szkTPMaXNy2eyh9XmfAKnlf3T6mVdLUbL6ddEb9KngE")
 k14.log("Auth Token : " + str(k14.authToken))
-channel44 = LineChannel(k14)
-k14.log("Channel Access Token : " + str(channel44.channelAccessToken))
-lineProfile = k14.getProfile()
-lineSettings = k14.getSettings()
-Dmid4 = k14.getProfile().mid
-responsename44 = k14.getProfile().displayName
 
 k15 = LineClient("EDJDsB4DPK1jllD7eTte.yioy5rpJhrcNspExBaBkBG.CQSQV/N0iaYFuxaUZIQyBTYjy0yGjItoaIFWNvr8O/U")
 k15.log("Auth Token : " + str(k15.authToken))
-channel55 = LineChannel(k15)
-k15.log("Channel Access Token : " + str(channel55.channelAccessToken))
-lineProfile = k15.getProfile()
-lineSettings = k15.getSettings()
-Emid5 = k15.getProfile().mid
-responsename55 = k15.getProfile().displayName
 
 k16 = LineClient("EDXCyZxNZL5dSaKmgoRe.dlzxCJT2xGku6Q7GI/qxRG.oO4ADCDnCryTOmfS+EWUDk0GdUrHmQqjkGArxVwrt1k")
 k16.log("Auth Token : " + str(k16.authToken))
-channel66 = LineChannel(k16)
-k16.log("Channel Access Token : " + str(channel66.channelAccessToken))
-lineProfile = k16.getProfile()
-lineSettings = k16.getSettings()
-Fmid6 = k16.getProfile().mid
-responsename66 = k16.getProfile().displayName
 
 k17 = LineClient("EDBxfhRdoAGvLVlnlpLb.2HvXKhgK4WOo07h84VAvQW.IdeYc29hkLS+sKxTGpsmdVKyG46xrCQG0gL4wFZ3CPw")
 k17.log("Auth Token : " + str(k17.authToken))
-channel77 = LineChannel(k17)
-k17.log("Channel Access Token : " + str(channel77.channelAccessToken))
-lineProfile = k17.getProfile()
-lineSettings = k17.getSettings()
-Gmid7 = k17.getProfile().mid
-responsename77 = k17.getProfile().displayName
 
 k18 = LineClient("EDm5ztAlnxmzgywWupr0.nRubQ/dF/mz2DYtTmScHqa.ZGDleH5r/T4aN4NouGm1445Ef4TRjg0lbqRGZthXh3Q")
 k18.log("Auth Token : " + str(k18.authToken))
-channel88 = LineChannel(k18)
-k18.log("Channel Access Token : " + str(channel88.channelAccessToken))
-lineProfile = k18.getProfile()
-lineSettings = k18.getSettings()
-Hmid8 = k18.getProfile().mid
-responsename88 = k18.getProfile().displayName
 
 k19 = LineClient("EDqPXFHgsKgBeemHHki3.D9d0eQxt2pDBR4APfWP7GW.7LkjNm5hzvOshXLwbBoeGtzyL8L3jGgmEg5WA0K+pQs")
 k19.log("Auth Token : " + str(k19.authToken))
-channel99 = LineChannel(k19)
-k19.log("Channel Access Token : " + str(channel99.channelAccessToken))
-lineProfile = k19.getProfile()
-lineSettings = k19.getSettings()
-Imid9 = k19.getProfile().mid
-responsename99 = k19.getProfile().displayName
 
 k20 = LineClient("EDcz8DIvb0YKgMq9e0z0.eODQiNIPSu0elgmTfE4eGa.5ORVNAVOi3/ZR6N3pZiZobdcetozV5Miyr7R1WFKAiA")
 k20.log("Auth Token : " + str(k20.authToken))
-channel102 = LineChannel(k20)
-k20.log("Channel Access Token : " + str(channel102.channelAccessToken))
-lineProfile = k20.getProfile()
-lineSettings = k20.getSettings()
-Jmid10 = k20.getProfile().mid
-responsename102 = k20.getProfile().displayName
 
 
 print("---LOGIN SUCCES---\nBY: SELFBOT-BY:꧁❈§{MAI}§❈꧂")
